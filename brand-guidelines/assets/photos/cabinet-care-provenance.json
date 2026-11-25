@@ -1,0 +1,21 @@
+[
+  {
+    "key": "residential-cabinet-care",
+    "description": "Une professionnelle en polo améthyste Ketuvi essuie une porte d’armoire en bois à l’aide d’une microfibre turquoise.",
+    "prompt": "Create a single original, candid editorial photograph of residential cleaning at a real-looking lived-in home. Horizontal 16:9 native 3840x2160. Camera at chest height, three-quarter side view on the worker's left, 50mm full-frame documentary lens, natural late-morning window light. An adult woman with dark curly hair tied back stands upright wiping a flat pale oak pantry cabinet door at chest height. Her near shoulder, left chest, hand pressing a folded turquoise #17C3B2 microfibre against wood, and the cabinet grain all readable in the central two thirds for responsive crops. Her other hand rests casually at her side. A believable Quebec kitchen with off-white backsplash, a ceramic mug, linen and soft window light. A subtle caught-in-the-middle moment with concentration, never posed or looking at camera. Show worker from head to upper thighs. She wears a neat AMETHYST #B35CFF cotton polo shirt with the EXACT company logo supplied in the attached brand reference embroidered in white thread on her left chest (the actual angular emblem AND the KetuviClean lettering), clearly recognisable and small at real uniform scale, angled naturally with the fabric. Use the reference solely as the exact logo design; invent all photographic content. Slate #374345 work trousers. Emphasize authentic wood, pores, natural body alignment, slight fabric creases and contact shadows. Balanced restrained editorial colour grade, light touch of film grain, honest textures, realistic hands. No overlays, watermark, captions, sparkle graphics, CGI, synthetic gloss or other branding.",
+    "model": "gpt_image_2_6",
+    "job_id": "c5b04e50-e32f-4ba3-bef0-127b2cab3598",
+    "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FbEtHIajKl7NAlfK9vatgUg0PB/hf_20261124_233129_c5b04e50-e32f-4ba3-bef0-127b2cab3598.png",
+    "path": "brand-guidelines/assets/photos/residential-cabinet-care.png",
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "format": "png",
+    "native": true,
+    "generated": true,
+    "sha256": "63c229170f9fc2d47a925720f8b2c524ad27e30e9769144497d4215b93e45327",
+    "brand_reference": "D:/PC GSF/Ketuvi/Graphics/Logo/KetuviClean logo.png",
+    "reference_media_id": "ee6fe0d2-fc68-4e16-8852-974477f8f941"
+  }
+]

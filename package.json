@@ -1,0 +1,13 @@
+{
+  "name": "ketuvi-clean",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node site/server.mjs",
+    "build": "node scripts/build.mjs",
+    "build:vercel": "node scripts/build.mjs --static",
+    "test": "node --test site/tests/*.test.mjs",
+    "check": "node scripts/check-site.mjs"
+  }
+}

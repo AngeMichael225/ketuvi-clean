@@ -1,0 +1,36 @@
+[
+  {
+    "key": "reception-daylight",
+    "description": "Un comptoir d’accueil en bois longe les fenêtres d’un hall de bureaux au sol de terrazzo.",
+    "prompt": "A single original 3840x2160 landscape documentary photograph on assignment for an independent Quebec interiors magazine, shot on location in a functioning everyday midrise office building in downtown Montreal. An unstaffed ground-floor reception desk to the right, solid oak-veneered plywood with a modest dark laminate top and a slightly rubbed front corner, one real low black office monitor seen discreetly in profile, small pen cup and a partially tucked-in working chair. The main visual (reception desk, chair, monitor) clusters around x=70% and is fully legible from x=43% to 88%, including in a 4:5 portrait centre-right crop. Several metres of light grey speckled terrazzo form a quiet walkway in the foreground. A deeper corridor and a plain column on the left third leave usable calm space for web type to be added later. Side daylight entering from real street windows on right catches imperfect terrazzo and creates soft realistic angled reflections, gentle contrast, preserve window highlights. Observed from normal standing height with 32mm documentary lens, unposed, slightly oblique framing, small details of practical use: simple wall junctions, real cable grommet in countertop, a subtly scuffed lower panel. Bright, humane, competent, accessible ordinary building. No people, readable signage, logos, hotel concierge desk, designer arches, decorative pendant lights, material-sample showroom, perfect symmetry, HDR, hard bloom, AI sheen, CGI architectural render, vignette, graphics or watermark.",
+    "model": "gpt_image_2_6",
+    "job_id": "e8ff48d6-0b48-46b8-a67e-bb5559ba63d2",
+    "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FbEtHIajKl7NAlfK9vatgUg0PB/hf_20261125_024839_e8ff48d6-0b48-46b8-a67e-bb5559ba63d2.png",
+    "path": "brand-guidelines/assets/photos/reception-daylight.png",
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "format": "png",
+    "native": true,
+    "generated": true,
+    "sha256": "63054c552e1af27da8d22cd9471691fe028ceaae64771c714400cbcc8eb9d266"
+  },
+  {
+    "key": "contact-notebook-daylight",
+    "description": "Un stylo repose sur un carnet en toile fermé, au bord d’une table de travail en bois.",
+    "prompt": "A single original 3840x2160 landscape 16:9 real-location documentary photograph for a Québec service business contact page. Close human-scale editorial detail looking diagonally down from a seated visitor's perspective at the corner of an everyday office table in a small back room. A used, closed moss-grey linen notebook with a simple dark elastic band and visible matte off-white page edges lies on the near side of an old honey-brown hardwood table. A single ordinary dark retractable ballpoint pen rests naturally at an angle against it. Slight pencil-pressure marks and a few small nicks in the wood and minor compression in the notebook corners, clean surface. A plain charcoal upholstered side chair drawn a little back from the table is only partially in the upper right of the frame; a softly unfocused pale painted office wall beyond it. Crop the diagonal natural-grain tabletop off three of the image edges, position the notebook and pen near the centre, show the contact shadows precisely. Gently luminous diffuse indirect daylight comes from an unseen window to the left. True understated photographic colour, normal 50mm full-frame lens, f/5.6, subtle film grain, natural depth with the book fully legible as a tactile object, surfaces feel touched and maintained. Beautiful real office detail observed between meetings, like a candid editorial insert; not styled product advertising. No open planner pages, visible writing, third-party logos, people, dishes, greenery, flowers, staged arrangement, patterned sunlight, showroom alcove, glossy marble, renders, HDR, overlaid letters or watermark.",
+    "model": "gpt_image_2_6",
+    "job_id": "678333a0-d8cd-4f57-b89b-4e3ed47439d9",
+    "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FbEtHIajKl7NAlfK9vatgUg0PB/hf_20261125_024839_678333a0-d8cd-4f57-b89b-4e3ed47439d9.png",
+    "path": "brand-guidelines/assets/photos/contact-notebook-daylight.png",
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "format": "png",
+    "native": true,
+    "generated": true,
+    "sha256": "ee084f95536f15338e173ae4eb4986b20e890f5a2530108af321ba5427d91a6e"
+  }
+]

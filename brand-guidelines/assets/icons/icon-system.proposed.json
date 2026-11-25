@@ -1,0 +1,98 @@
+{
+  "status": "proposition-v2",
+  "style": "filled duotone",
+  "primary": "#B35CFF",
+  "secondary": "#17C3B2",
+  "viewBox": "0 0 24 24",
+  "source_grid": 256,
+  "strokeWidth": 0,
+  "default": "static SVG",
+  "minimum_size_px": 24,
+  "recommended_size_px": [
+    24,
+    32,
+    48,
+    64
+  ],
+  "labels": "Retain a visible text label for service and navigation choices.",
+  "color_roles": {
+    "primary": "Amethyst filled silhouette",
+    "secondary": "One restrained turquoise structural detail"
+  },
+  "motion": {
+    "trigger": [
+      "hover",
+      "keyboard focus",
+      "explicit action"
+    ],
+    "duration_ms": [
+      180,
+      240
+    ],
+    "loop": false,
+    "effect": "Brief emphasis of the turquoise fill; primary silhouette stays stable.",
+    "reduced_motion": "static SVG",
+    "implementation": "CSS transform/opacity; no stroke drawing animation"
+  },
+  "inspiration": [
+    {
+      "name": "Flaticon",
+      "url": "https://www.flaticon.com/",
+      "use": "User reference for a polished family; no asset redistributed."
+    },
+    {
+      "name": "LottieFiles",
+      "url": "https://lottiefiles.com/",
+      "use": "User reference for responsive motion; no animation redistributed."
+    }
+  ],
+  "icons": [
+    {
+      "key": "commercial",
+      "label": "Commercial",
+      "file": "ketuvi-commercial.svg",
+      "source_icon": "building-office-fill",
+      "source_url": "https://github.com/phosphor-icons/core/blob/main/assets/fill/building-office-fill.svg"
+    },
+    {
+      "key": "residential",
+      "label": "Résidentiel",
+      "file": "ketuvi-residential.svg",
+      "source_icon": "house-fill",
+      "source_url": "https://github.com/phosphor-icons/core/blob/main/assets/fill/house-fill.svg"
+    },
+    {
+      "key": "occasional",
+      "label": "Travaux ponctuels",
+      "file": "ketuvi-occasional.svg",
+      "source_icon": "broom-fill",
+      "source_url": "https://github.com/phosphor-icons/core/blob/main/assets/fill/broom-fill.svg"
+    },
+    {
+      "key": "quotation",
+      "label": "Soumission",
+      "file": "ketuvi-quotation.svg",
+      "source_icon": "clipboard-text-fill",
+      "source_url": "https://github.com/phosphor-icons/core/blob/main/assets/fill/clipboard-text-fill.svg"
+    },
+    {
+      "key": "contact",
+      "label": "Contact",
+      "file": "ketuvi-contact.svg",
+      "source_icon": "chat-teardrop-text-fill",
+      "source_url": "https://github.com/phosphor-icons/core/blob/main/assets/fill/chat-teardrop-text-fill.svg"
+    },
+    {
+      "key": "careers",
+      "label": "Carrières",
+      "file": "ketuvi-careers.svg",
+      "source_icon": "briefcase-fill",
+      "source_url": "https://github.com/phosphor-icons/core/blob/main/assets/fill/briefcase-fill.svg"
+    }
+  ],
+  "authorship": "Adapted from Phosphor Icons (MIT): Ketuvi palette, selective turquoise fills, broom bristle and briefcase flap adaptations.",
+  "source_repository": "https://github.com/phosphor-icons/core",
+  "license": "MIT",
+  "license_file": "LICENSE-Phosphor.txt",
+  "notice_file": "NOTICE.md"
+}

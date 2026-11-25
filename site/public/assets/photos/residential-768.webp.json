@@ -1,0 +1,8 @@
+{
+  "prompt": "Produce an original photorealistic residential interior photograph for Ketuvi Clean's refreshed visual identity. Native 4K output requested: exactly 3840 by 2160 pixels, landscape 16:9. The result must be indistinguishable from a real editorial interior photograph, absolutely no CGI or 3D-render appearance. A welcoming, genuinely inhabited contemporary home: bright living room opening toward a neat kitchen, natural daylight, pale neutral walls, light oak floor, a comfortable soft beige linen sofa with natural creases, a ceramic coffee cup on a small wooden table, a plant beside a large window. Impeccably maintained but human and attainable, not a luxury fantasy or real-estate rendering. Honest textures: linen weave, slight wood variation, realistic soft contact shadows and believable window reflections. Camera at natural seated eye height, 35mm lens look, soft exposure with retained highlights, subtle film-like grain. Restrained white, soft stone, warm wood, natural plant greens, one very discreet teal textile accent. The room itself and its sense of calm are the subject. Compose the main furniture in the right half with uncluttered brighter space on the left for future copy. No people, no logos, no captions, no watermark, no glass sculptures or stylized effects. Create a new scene, independent from all previously supplied photographs.",
+  "origin": "brand-guidelines/assets/photos/residential.png",
+  "model": "gpt_image_2_6",
+  "job_id": "ef6bd33a-3bc7-441a-8ca3-8cf64ed0b165",
+  "derivative": "Full frame, resized to 768px wide and encoded as WebP.",
+  "createdAt": "2026-11-24T18:52:46.519707+00:00"
+}

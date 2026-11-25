@@ -1,0 +1,42 @@
+[
+  {
+    "key": "careers-three-colleagues",
+    "description": "Trois collègues en polos améthyste au logo KetuviClean et pantalons ardoise sourient face à la caméra.",
+    "prompt": "Generate a single true-to-life 4K photographic editorial group portrait for the recruitment page of Quebec commercial cleaning company KetuviClean. Exactly three adult coworkers, two women and a man of different backgrounds and ages, standing close together in a relaxed shoulder-to-shoulder group with an authentic sense of camaraderie, all three smiling naturally and looking directly into the camera. Framed from mid-thigh up, all three full heads and shoulders and three chest logos in the central 60 percent of the horizontal image so a centered 1.3:1 crop keeps everyone. A few different relaxed arm positions with no arms across chests. All three wear matching amethyst purple #B35CFF cotton piqué polos, each with a clean small white embroidered KetuviClean logo on the left breast. Reproduce the supplied official logo reference, emblem and exactly spelled KetuviClean lettering on each shirt, in white thread. Slate #374345 work trousers. A folded turquoise #17C3B2 microfiber and the edge of a modest cleaning cart visible off to the side. Welcoming, believable daylight workplace just off a contemporary Montreal office lobby with pale oak millwork and light stone, quiet incidental detail. Natural window light front left with soft shadows, real skin and hair detail and gentle fabric creases, waist-height 50mm lens, restrained magazine reportage, crisp all faces, refined natural colors. Fresh original image, no reference photograph, no CGI look, no staged stock gestures, no corporate name plaques or captions, no sign text, no extra people or reflections of people, no watermark. Native 3840x2160 horizontal 16:9.",
+    "model": "gpt_image_2_6",
+    "job_id": "f4e15aea-f542-4cfa-91db-d8c08d7fd810",
+    "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FbEtHIajKl7NAlfK9vatgUg0PB/hf_20261125_024118_f4e15aea-f542-4cfa-91db-d8c08d7fd810.png",
+    "path": "brand-guidelines/assets/photos/careers-three-colleagues.png",
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "format": "png",
+    "native": true,
+    "generated": true,
+    "sha256": "098ffd0ff89dba1f5a71aaacb67d8f7e0a567c7e673d64a19ed70003a3f76b46",
+    "brand_reference": "D:/PC GSF/Ketuvi/Graphics/Logo/KetuviClean logo.png",
+    "reference_media_id": "ee6fe0d2-fc68-4e16-8852-974477f8f941"
+  },
+  {
+    "key": "careers-daylight-portrait",
+    "description": "Trois collègues en polos améthyste brodés KetuviClean sourient à la caméra près d’une fenêtre.",
+    "prompt": "Edit the supplied original careers portrait (first image) in place. Keep the exact same three fictional colleagues, identities, faces, friendly individual smiles, relative height, direct eye contact, and comfortable stance, with the same headroom and wide composition. Mandatory detailed correction: completely remove every bit of tattoo ink, especially the dark floral/leaf tattoos visible immediately below the short sleeve on the outer upper arm of the woman on the far right of the frame. Restore unmarked realistic human skin with normal pores and subtle tone variation from sleeve to wrist; no marks on anyone's exposed skin. Sleeves remain genuinely short and all three people's arms remain naturally visible. Give the photograph the true colors of a cheerful ordinary bright midmorning workday at an office: fresh daylight coming from the side window, soft true shadows, pleasant moderate contrast and normal, naturally varied saturation. The original is flat, slate-gray and washed out; bring it to life. A realistic natural spring daylight scene through the office window with a little blue sky and naturally green leaves. Neutral warm-white walls and gently warm skin highlights, human skin in its own genuine individual color; deep brown skin should be luminous and dimensional. The cotton piqué polos should now all be a clear medium amethyst purple, approx #8453AB under neutral light, rich recognizable purple, true-to-life dyed workwear. Keep embroidered white KetuviClean wordmarks and the original white symbol on all three polos, exactly as in the separate supplied logo reference. Slate work trousers #374345 and one true turquoise microfiber on the cleaning cart. Preserve central arrangement with faces, arms and chest logos comfortably inside safe crop at 1.31:1 from center of a 16:9 3840 × 2160 frame. This is a real-looking camera photograph. Real textile folds and human skin texture, not HDR, movie color grading, filtered duotone, CGI, beauty retouching or oversaturated neon.",
+    "model": "gpt_image_2_6",
+    "job_id": "aba13dcb-dbc6-4778-8f0e-20d28dcf2a89",
+    "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FbEtHIajKl7NAlfK9vatgUg0PB/hf_20261125_031448_aba13dcb-dbc6-4778-8f0e-20d28dcf2a89.png",
+    "path": "brand-guidelines/assets/photos/careers-daylight-portrait.png",
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "format": "png",
+    "native": true,
+    "generated": true,
+    "sha256": "826722b3d1bb45eebc96e8946430d7e0bf35691bd5b2bf2581e34164dc01512c",
+    "brand_reference": "D:/PC GSF/Ketuvi/Graphics/Logo/KetuviClean logo.png",
+    "reference_media_id": "ee6fe0d2-fc68-4e16-8852-974477f8f941",
+    "reference_job_id": "58d512be-9e52-4947-bc43-71f1616caba1",
+    "reference_source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FbEtHIajKl7NAlfK9vatgUg0PB/hf_20261125_030527_58d512be-9e52-4947-bc43-71f1616caba1.png"
+  }
+]

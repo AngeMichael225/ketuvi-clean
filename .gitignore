@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.vercel/
+site/.data/
+site/.review/
+__pycache__/
+*.pyc
+.vercel/
+dist/
+.env
+.env.*
+!.env.example
+brandkit/inputs/.upload-temporary.json

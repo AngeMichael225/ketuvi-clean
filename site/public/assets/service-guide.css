@@ -1,0 +1,96 @@
+.service-guide {
+  --guide-photo-width: clamp(130px, 15vw, 200px);
+  --guide-gap: clamp(20px, 2.8vw, 44px);
+  padding-block: clamp(38px, 5vw, 78px) clamp(60px, 7vw, 112px);
+}
+.guide-header {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr);
+  align-items: end;
+  gap: clamp(28px, 5vw, 80px);
+  margin-bottom: clamp(28px, 3.2vw, 52px);
+}
+.guide-header h1 {
+  font-size: clamp(48px, 6.3vw, 99px);
+  font-weight: 400;
+  line-height: .99;
+  letter-spacing: -.052em;
+}
+.guide-header p { max-width: 37ch; color: var(--slate); font-size: clamp(17px, 1.45vw, 21px); line-height: 1.5; }
+.guide-header .editorial-link { margin-top: 12px; color: var(--violet-text); }
+.guide-list { margin: 0; padding: 0; list-style: none; border-top: 1px solid var(--line); }
+.guide-list li { position: relative; border-bottom: 1px solid var(--line); padding-bottom: 12px; }
+.guide-choice {
+  display: grid;
+  grid-template-columns: var(--guide-photo-width) minmax(0, 1fr) auto;
+  align-items: center;
+  gap: var(--guide-gap);
+  padding: clamp(16px, 1.5vw, 24px) 0 2px;
+  color: var(--ink);
+}
+.guide-choice img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1.88;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.guide-copy h2 { font-size: clamp(24px, 2.1vw, 35px); font-weight: 500; line-height: 1.13; letter-spacing: -.032em; text-wrap: balance; }
+.guide-copy p { max-width: 58ch; margin-top: 6px; color: var(--slate); font-size: 16px; line-height: 1.45; }
+.guide-destination { display: inline-flex; align-items: center; gap: 12px; color: var(--violet-text); font-size: 16px; font-weight: 500; }
+.guide-arrow {
+  flex: none;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 50%;
+  color: var(--ink);
+  background: var(--amethyst-soft);
+}
+.guide-choice:is(:hover, :focus-visible) .guide-destination { text-decoration: underline; text-underline-offset: 4px; }
+.guide-choice:is(:hover, :focus-visible) .guide-arrow { background: var(--amethyst); }
+.guide-examples { margin-inline-start: calc(var(--guide-photo-width) + var(--guide-gap)); }
+.guide-examples summary {
+  display: inline-flex; align-items: center; min-height: 44px; gap: 9px;
+  color: var(--teal-text); font-size: 15px; font-weight: 500; list-style: none; cursor: pointer;
+}
+.guide-examples summary::-webkit-details-marker { display: none; }
+.guide-examples .plus { width: 12px; height: 12px; }
+.guide-examples .plus::before, .guide-examples .plus::after { top: 5px; width: 11px; background: currentColor; }
+.guide-examples[open] .plus::after { transform: none; }
+.guide-shortcuts {
+  display: flex; flex-wrap: wrap; gap: 4px 24px; padding: 6px 0 10px 14px;
+  border-inline-start: 2px solid var(--turquoise);
+}
+.guide-shortcuts p { width: 100%; font-size: 15px; }
+.guide-shortcuts a {
+  display: inline-flex; align-items: center; gap: 6px; min-height: 44px;
+  color: var(--violet-text); font-size: 16px; font-weight: 500; text-underline-offset: 4px;
+}
+.guide-shortcuts a:is(:hover,:focus-visible) { text-decoration: underline; }
+.guide-shortcuts .inline-arrow { width: 16px; height: 16px; }
+@media (prefers-reduced-motion: no-preference) {
+  .guide-examples[open] .guide-shortcuts { animation: panel-arrive 160ms var(--editorial-ease); }
+}
+@media (max-width: 960px) {
+  .service-guide { --guide-photo-width: clamp(92px, 18vw, 155px); --guide-gap: 24px; }
+  .guide-choice { grid-template-columns: var(--guide-photo-width) minmax(0, 1fr); column-gap: var(--guide-gap); row-gap: 7px; }
+  .guide-choice img { grid-row: span 2; aspect-ratio: 1.35; }
+  .guide-destination { grid-column: 2; gap: 7px; font-size: 15px; }
+  .guide-arrow { width: 23px; height: 23px; padding: 4px; }
+}
+@media (max-width: 700px) {
+  .guide-header { grid-template-columns: 1fr; gap: 18px; }
+  .guide-header .editorial-link { margin-top: 6px; }
+  .service-guide { --guide-photo-width: clamp(58px, 19vw, 108px); --guide-gap: clamp(12px, 4vw, 22px); }
+  .guide-choice { padding-top: 20px; }
+  .guide-choice img { aspect-ratio: .86; align-self: start; }
+  .guide-copy h2 { font-size: clamp(21px, 4.6vw, 26px); }
+  .guide-copy p { font-size: 15px; }
+  .guide-shortcuts { flex-direction: column; }
+}
+@media (max-width: 410px) {
+  .guide-examples[open] { margin-inline-start: 0; }
+  .guide-examples[open] summary { margin-inline-start: calc(var(--guide-photo-width) + var(--guide-gap)); }
+}

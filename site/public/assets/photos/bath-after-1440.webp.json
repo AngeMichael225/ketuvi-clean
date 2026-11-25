@@ -1,0 +1,8 @@
+{
+  "prompt": "Use the attached photo as the registered BEFORE source. Produce one full-frame AFTER photograph of exactly the same bathroom after a professional cleaner has finished. Meticulous localized photographic retouching: wipe the pronounced chalky soap buildup and streaks from the grey-green stone work surface, remove ALL toothpaste fragments and finger marks, remove ONLY water spots and limescale from faucet, the oval sink and surround. The result must clearly look clean when displayed next to the before on a mobile website. Restore the real underlying surface to its natural finish, without making it unnaturally shiny. Keep the same sink and faucet and exact silhouette, tile layout, soap dispenser, towel, all fixed and movable fixtures, camera position, lens, edge crop, shadows, lighting, white balance and exposure. Wherever a pixel does not belong to a removable stain it should match the reference photograph exactly. NO props, people, retouching of decor, split line, crop, vignette, color filter or type. This is the same scene and camera held fixed across a before/after result, not another angle or a makeover. Photorealistic, one natural photograph, landscape 16:9, native 4K.",
+  "origin": "brand-guidelines/assets/photos/bath-after.png",
+  "model": "gpt_image_2_6",
+  "job_id": "d2f108de-58c8-4a3f-9d7c-ad517b157051",
+  "derivative": "Full frame, resized to 1440px wide and encoded as WebP.",
+  "createdAt": "2026-11-24T23:09:02.123886+00:00"
+}

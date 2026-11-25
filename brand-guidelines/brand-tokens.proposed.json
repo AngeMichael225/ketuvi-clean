@@ -1,0 +1,293 @@
+{
+  "status": "proposition-v1",
+  "brand": "KetuviClean",
+  "date": "2026-11-24",
+  "confirmed": {
+    "preserve_symbol": true,
+    "modernize_wordmark_and_proportions": true,
+    "website_direction": "Crystal Clean / photo",
+    "photography": "new images only, photoreal, no CGI",
+    "uniform": "brand colors with official chest logo",
+    "iconography": "amethyst and turquoise duotone, filled shapes",
+    "hero": "animated, interactive and responsive, with user-controlled service scenes"
+  },
+  "colors": {
+    "white": {
+      "value": "#FFFFFF",
+      "origin": "source-declared"
+    },
+    "amethyst": {
+      "value": "#B35CFF",
+      "origin": "source-declared"
+    },
+    "teal": {
+      "value": "#17C3B2",
+      "origin": "source-declared"
+    },
+    "forest": {
+      "value": "#104543",
+      "origin": "source-declared"
+    },
+    "ink": {
+      "value": "#0D1B1E",
+      "origin": "source-declared"
+    },
+    "slate": {
+      "value": "#374345",
+      "origin": "source-declared"
+    },
+    "mist": {
+      "value": "#F3F8F7",
+      "origin": "proposed-extension"
+    },
+    "violet_text": {
+      "value": "#7C32B5",
+      "origin": "proposed-extension"
+    },
+    "teal_text": {
+      "value": "#0B746A",
+      "origin": "proposed-extension"
+    },
+    "line": {
+      "value": "#D5E2DF",
+      "origin": "proposed-extension"
+    }
+  },
+  "color_roles": {
+    "primary": {
+      "name": "Améthyste",
+      "value": "#B35CFF",
+      "status": "user-confirmed"
+    },
+    "secondary": {
+      "name": "Turquoise",
+      "value": "#17C3B2",
+      "status": "user-confirmed"
+    },
+    "primary_button": {
+      "background": "#B35CFF",
+      "text": "#0D1B1E"
+    },
+    "secondary_accent": "#17C3B2",
+    "light_surface_proportions": {
+      "white": 55,
+      "mist": 15,
+      "ink": 10,
+      "amethyst": 15,
+      "teal": 5
+    }
+  },
+  "typography": {
+    "family": "Helvetica Neue",
+    "display_weight": 500,
+    "web_body_weight": 400,
+    "wordmark_weights": [
+      500,
+      300
+    ],
+    "supplied_font_directory": "D:\\PC GSF\\Ketuvi\\helvetica neue",
+    "fonts_redistributed": false
+  },
+  "layout": {
+    "desktop_columns": 12,
+    "mobile_columns": 4,
+    "max_content_width": 1280,
+    "mobile_gutter": [
+      20,
+      24
+    ],
+    "spacing": [
+      8,
+      16,
+      24,
+      32,
+      48,
+      64,
+      96
+    ]
+  },
+  "shape": {
+    "button_radius": 16,
+    "navigation_radius": 28,
+    "panel_radius": 24
+  },
+  "glass": {
+    "white_opacity": [
+      0.86,
+      0.94
+    ],
+    "blur_px": [
+      12,
+      20
+    ],
+    "animate_blur": false,
+    "logo_distortion": false
+  },
+  "motion": {
+    "hero_name": "Le passage au clair",
+    "entry_ms": 5600,
+    "scene_crossfade_ms": 650,
+    "continuous_loop": false,
+    "automatic_carousel": false,
+    "scene_selection": [
+      "commercial",
+      "residential",
+      "occasional"
+    ],
+    "quote_context_follows_selection": true,
+    "pause_control": true,
+    "replay_control": true,
+    "reduced_motion": "static photographs, service choice retained",
+    "preferred_properties": [
+      "transform",
+      "opacity"
+    ]
+  },
+  "uniform": {
+    "polo": "#B35CFF",
+    "trousers": "#374345",
+    "cloth": "#17C3B2",
+    "logo": "official white on wearer left chest"
+  },
+  "iconography": {
+    "status": "proposition-v2",
+    "style": "filled duotone",
+    "primary": "#B35CFF",
+    "secondary": "#17C3B2",
+    "viewBox": "0 0 24 24",
+    "source_grid": 256,
+    "strokeWidth": 0,
+    "default": "static SVG",
+    "minimum_size_px": 24,
+    "recommended_size_px": [
+      24,
+      32,
+      48,
+      64
+    ],
+    "labels": "Retain a visible text label for service and navigation choices.",
+    "color_roles": {
+      "primary": "Amethyst filled silhouette",
+      "secondary": "One restrained turquoise structural detail"
+    },
+    "motion": {
+      "trigger": [
+        "hover",
+        "keyboard focus",
+        "explicit action"
+      ],
+      "duration_ms": [
+        180,
+        240
+      ],
+      "loop": false,
+      "effect": "Brief emphasis of the turquoise fill; primary silhouette stays stable.",
+      "reduced_motion": "static SVG",
+      "implementation": "CSS transform/opacity; no stroke drawing animation"
+    },
+    "inspiration": [
+      {
+        "name": "Flaticon",
+        "url": "https://www.flaticon.com/",
+        "use": "User reference for a polished family; no asset redistributed."
+      },
+      {
+        "name": "LottieFiles",
+        "url": "https://lottiefiles.com/",
+        "use": "User reference for responsive motion; no animation redistributed."
+      }
+    ],
+    "icons": [
+      {
+        "key": "commercial",
+        "label": "Commercial",
+        "file": "ketuvi-commercial.svg",
+        "source_icon": "building-office-fill",
+        "source_url": "https://github.com/phosphor-icons/core/blob/main/assets/fill/building-office-fill.svg"
+      },
+      {
+        "key": "residential",
+        "label": "Résidentiel",
+        "file": "ketuvi-residential.svg",
+        "source_icon": "house-fill",
+        "source_url": "https://github.com/phosphor-icons/core/blob/main/assets/fill/house-fill.svg"
+      },
+      {
+        "key": "occasional",
+        "label": "Travaux ponctuels",
+        "file": "ketuvi-occasional.svg",
+        "source_icon": "broom-fill",
+        "source_url": "https://github.com/phosphor-icons/core/blob/main/assets/fill/broom-fill.svg"
+      },
+      {
+        "key": "quotation",
+        "label": "Soumission",
+        "file": "ketuvi-quotation.svg",
+        "source_icon": "clipboard-text-fill",
+        "source_url": "https://github.com/phosphor-icons/core/blob/main/assets/fill/clipboard-text-fill.svg"
+      },
+      {
+        "key": "contact",
+        "label": "Contact",
+        "file": "ketuvi-contact.svg",
+        "source_icon": "chat-teardrop-text-fill",
+        "source_url": "https://github.com/phosphor-icons/core/blob/main/assets/fill/chat-teardrop-text-fill.svg"
+      },
+      {
+        "key": "careers",
+        "label": "Carrières",
+        "file": "ketuvi-careers.svg",
+        "source_icon": "briefcase-fill",
+        "source_url": "https://github.com/phosphor-icons/core/blob/main/assets/fill/briefcase-fill.svg"
+      }
+    ],
+    "authorship": "Adapted from Phosphor Icons (MIT): Ketuvi palette, selective turquoise fills, broom bristle and briefcase flap adaptations.",
+    "source_repository": "https://github.com/phosphor-icons/core",
+    "license": "MIT",
+    "license_file": "LICENSE-Phosphor.txt",
+    "notice_file": "NOTICE.md"
+  },
+  "contrast": [
+    {
+      "foreground": "#0D1B1E",
+      "background": "#FFFFFF",
+      "ratio": 17.608
+    },
+    {
+      "foreground": "#0D1B1E",
+      "background": "#17C3B2",
+      "ratio": 7.953
+    },
+    {
+      "foreground": "#0D1B1E",
+      "background": "#B35CFF",
+      "ratio": 4.94
+    },
+    {
+      "foreground": "#FFFFFF",
+      "background": "#104543",
+      "ratio": 10.745
+    },
+    {
+      "foreground": "#FFFFFF",
+      "background": "#17C3B2",
+      "ratio": 2.214
+    },
+    {
+      "foreground": "#FFFFFF",
+      "background": "#B35CFF",
+      "ratio": 3.564
+    }
+  ],
+  "logo_sources": {
+    "symbol": "D:\\PC GSF\\Ketuvi\\Graphics\\Logo\\KetuviClean logo Symbole.png",
+    "symbol_sha256": "4f5240a34665e5b9aac6e2be153f45b697d71acccffded771b80bace6deb8c81",
+    "symbol_alpha_bbox": [
+      2725,
+      1073,
+      5275,
+      3427
+    ],
+    "source_is_vector": false
+  }
+}

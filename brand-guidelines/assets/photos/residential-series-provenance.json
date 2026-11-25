@@ -1,0 +1,87 @@
+[
+  {
+    "key": "residential-hero",
+    "path": "brand-guidelines/assets/photos/residential-hero.png",
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "model": "gpt_image_2_6",
+    "job_id": "6d612edf-8b14-45e7-bf62-5a83244ce5dd",
+    "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FbEtHIajKl7NAlfK9vatgUg0PB/hf_20261124_230634_6d612edf-8b14-45e7-bf62-5a83244ce5dd.png",
+    "generated": true,
+    "prompt": "An inviting residential bedroom in a Montreal duplex in late spring after housekeeping. The bed is neatly made with natural matte ivory linen, a muted sage woven throw, and two relaxed linen pillows, centered slightly right in frame. Broad pale maple floorboards, petite walnut midcentury bedside table, a simple ceramic lamp, white painted wood trim and a big sash window at left with soft out-of-focus greenery outside. Light just after sunrise falls across bedding from the left in long delicate shadows. No people. No flowers or staged detergent. A warm quietly personal home, underexposed enough to preserve window detail. A wide architectural still at eye level from the doorway, 35mm, f/7.1. Produce exactly one original editorial photograph in landscape 16:9. Photographic realism with physical material texture, perspective from a real camera, natural shadow gradients and a neutral daylight color grade. No composited design, split screen, letters, logos, watermark, added graphics, plastic CGI polish, oversharpening or unnaturally glossy surfaces.",
+    "description": "Lit en lin clair et jeté vert sauge dans une chambre éclairée par le soleil du matin."
+  },
+  {
+    "key": "bath-before",
+    "path": "brand-guidelines/assets/photos/bath-before.png",
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "model": "gpt_image_2_6",
+    "job_id": "337b4a56-0773-407d-90c1-5aab67d80811",
+    "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FbEtHIajKl7NAlfK9vatgUg0PB/hf_20261124_230544_337b4a56-0773-407d-90c1-5aab67d80811.png",
+    "generated": true,
+    "prompt": "An ultra-realistic documentary BEFORE photograph of a stylish but plausible Canadian apartment bathroom used this morning. Close, straight-on architectural image down onto a single ivory oval porcelain sink embedded into a muted dark grey-green stone vanity, from high standing eye height, 35mm f/8 on a FIXED tripod. The basin is slightly left of center with brushed chrome gooseneck faucet behind it. Part of the oak vanity front visible below, pale vertically stacked tile backsplash, no mirror reflection or people, one amber hand soap pump at far right on back of counter and a white hand towel hanging on a ring at far right; no other containers. Natural soft window daylight from upper left. The LEFT THIRD of the image prominently shows a visibly chalky milky soap-ring and streaks spread across the dark stone, small toothpaste residue at the front left of the sink and obvious dried water droplet marks, at a scale clearly visible on a phone screen. Around the tap a second light residue and limescale ring, basin has water marks. Plausible ordinary hard-water and soap marks a cleaner can remove. Balanced composition with fixed fixtures and no movable clutter. No structural damage, cracked surfaces, mildew or extreme dirt. Shooting the overall sink and stone is the main subject; do not crop out the left countertop. The clean companion image will precisely match the image. Produce exactly one original editorial photograph in landscape 16:9. Photographic realism with physical material texture, perspective from a real camera, natural shadow gradients and a neutral daylight color grade. No composited design, split screen, letters, logos, watermark, added graphics, plastic CGI polish, oversharpening or unnaturally glossy surfaces.",
+    "description": "Traces de savon et de calcaire sur la pierre verte autour d’un lavabo blanc."
+  },
+  {
+    "key": "home-report-detail",
+    "path": "brand-guidelines/assets/photos/home-report-detail.png",
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "model": "gpt_image_2_6",
+    "job_id": "25ac9454-78c6-4561-be6a-2ffda76ae25e",
+    "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FbEtHIajKl7NAlfK9vatgUg0PB/hf_20261124_230544_25ac9454-78c6-4561-be6a-2ffda76ae25e.png",
+    "generated": true,
+    "prompt": "Documentary detail photographed from above across a housekeeping trolley in a sun-filled interior. Tight crop of ONE anatomically correct hand in an ordinary fitted dark slate nitrile glove folding a thick turquoise microfiber cleaning cloth (#17C3B2) precisely in half across a pale stainless tray on the cart. Only the glove and a tiny glimpse of wrist enter from the left: no face, torso, sleeve branding, sink or faucet in the shot. Center the contact between the glove and cloth so a narrow vertical crop of the central 42 percent still tells the whole story. Shallow depth of field, subtle brushed metal detail, soft diagonal daylight, believable creases and fiber loops, slightly irregular practical working action. No dramatic sterile science mood, bottles or text. Produce exactly one original editorial photograph in landscape 16:9. Photographic realism with physical material texture, perspective from a real camera, natural shadow gradients and a neutral daylight color grade. No composited design, split screen, letters, logos, watermark, added graphics, plastic CGI polish, oversharpening or unnaturally glossy surfaces.",
+    "description": "Une main gantée plie une lavette turquoise sur le plateau métallique d’un chariot."
+  },
+  {
+    "key": "about-detail",
+    "path": "brand-guidelines/assets/photos/about-detail.png",
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "model": "gpt_image_2_6",
+    "job_id": "b93950ca-530b-477f-af79-5428de3cc871",
+    "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FbEtHIajKl7NAlfK9vatgUg0PB/hf_20261124_230720_b93950ca-530b-477f-af79-5428de3cc871.png",
+    "generated": true,
+    "prompt": "A tactile editorial still life of window cleaning tools and angled morning light. On a white painted deep sash window sill lies one professional translucent squeegee with a smoke-clear plastic handle and a narrow charcoal rubber edge, and a folded muted lilac microfiber cloth showing fine fabric texture. A scattering of small realistic water droplets on the adjacent glass, seen in raking sunlight which catches their edges. A little blur of foliage behind the pane. Close, calm, no people, no hands, no bottles, no text. Compose the squeegee on a compact diagonal across the central third, the cloth immediately below; the two objects remain legible when a vertical 4:5 crop is taken from center of the landscape frame. Natural soft details from a real macro lens, not a flat lay catalog render. Produce exactly one original editorial photograph in landscape 16:9. Photographic realism with physical material texture, perspective from a real camera, natural shadow gradients and a neutral daylight color grade. No composited design, split screen, letters, logos, watermark, added graphics, plastic CGI polish, oversharpening or unnaturally glossy surfaces.",
+    "description": "Raclette transparente et lavette mauve sur le rebord d’une fenêtre perlée de gouttes."
+  },
+  {
+    "key": "contact-space",
+    "path": "brand-guidelines/assets/photos/contact-space.png",
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "model": "gpt_image_2_6",
+    "job_id": "dd443b58-ce6f-4c81-a8ae-be881a0acdfe",
+    "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FbEtHIajKl7NAlfK9vatgUg0PB/hf_20261124_230720_dd443b58-ce6f-4c81-a8ae-be881a0acdfe.png",
+    "generated": true,
+    "prompt": "A small, distinctive conversation alcove in a local Montreal business entry, ready for an in-person appointment: an inviting oval warm oak meeting table, a single closed unmarked kraft-paper notebook resting a bit off center, two simple upholstered chairs around the table, one soft off-white built-in wall bench tucked into a curved plaster niche. Natural daylight enters in a shaft through ribbed glass at left, creating credible rippled shadows on the pale wall. Three-quarter medium-wide architectural composition, eye level, natural morning colors, enough depth around the table; not a standard conference room or a generic office lobby. No people, signage, text, plants obscuring the scene, screens, or devices. Restrained, bright, real surface detail. Produce exactly one original editorial photograph in landscape 16:9. Photographic realism with physical material texture, perspective from a real camera, natural shadow gradients and a neutral daylight color grade. No composited design, split screen, letters, logos, watermark, added graphics, plastic CGI polish, oversharpening or unnaturally glossy surfaces.",
+    "description": "Un carnet kraft repose sur la table ovale d’une alcôve éclairée par une verrière."
+  },
+  {
+    "key": "bath-after",
+    "path": "brand-guidelines/assets/photos/bath-after.png",
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "model": "gpt_image_2_6",
+    "job_id": "d2f108de-58c8-4a3f-9d7c-ad517b157051",
+    "parent_job_id": "337b4a56-0773-407d-90c1-5aab67d80811",
+    "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FbEtHIajKl7NAlfK9vatgUg0PB/hf_20261124_230720_d2f108de-58c8-4a3f-9d7c-ad517b157051.png",
+    "generated": true,
+    "prompt": "Use the attached photo as the registered BEFORE source. Produce one full-frame AFTER photograph of exactly the same bathroom after a professional cleaner has finished. Meticulous localized photographic retouching: wipe the pronounced chalky soap buildup and streaks from the grey-green stone work surface, remove ALL toothpaste fragments and finger marks, remove ONLY water spots and limescale from faucet, the oval sink and surround. The result must clearly look clean when displayed next to the before on a mobile website. Restore the real underlying surface to its natural finish, without making it unnaturally shiny. Keep the same sink and faucet and exact silhouette, tile layout, soap dispenser, towel, all fixed and movable fixtures, camera position, lens, edge crop, shadows, lighting, white balance and exposure. Wherever a pixel does not belong to a removable stain it should match the reference photograph exactly. NO props, people, retouching of decor, split line, crop, vignette, color filter or type. This is the same scene and camera held fixed across a before/after result, not another angle or a makeover. Photorealistic, one natural photograph, landscape 16:9, native 4K.",
+    "description": "Le même lavabo après l’entretien, avec le comptoir vert essuyé et le robinet propre."
+  }
+]

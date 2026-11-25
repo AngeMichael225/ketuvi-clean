@@ -1,0 +1,243 @@
+{
+  "about-detail": {
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "description": "Raclette transparente et lavette mauve sur le rebord d’une fenêtre perlée de gouttes."
+  },
+  "about-field": {
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "description": "Une employée dépoussière une étagère en bois avec une microfibre turquoise."
+  },
+  "about-hero": {
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "description": "Dans son entrée, une cliente indique une pièce à une professionnelle Ketuvi."
+  },
+  "bath-after": {
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "description": "Le même lavabo après l’entretien, avec le comptoir vert essuyé et le robinet propre."
+  },
+  "bath-before": {
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "description": "Traces de savon et de calcaire sur la pierre verte autour d’un lavabo blanc."
+  },
+  "careers-daylight-portrait": {
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "description": "Trois collègues en polos améthyste brodés KetuviClean sourient à la caméra près d’une fenêtre."
+  },
+  "careers-field": {
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "description": "Une employée montre à un collègue comment plier une microfibre turquoise."
+  },
+  "careers-hero": {
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "description": "Un employé présente une brosse et des microfibres sur un chariot d’entretien."
+  },
+  "careers-three-colleagues": {
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "description": "Trois collègues en polos améthyste au logo KetuviClean et pantalons ardoise sourient face à la caméra."
+  },
+  "catalogue-commercial": {
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "description": "Une table en bois clair entourée de chaises bleues dans une salle de réunion vitrée."
+  },
+  "catalogue-occasional": {
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "description": "Un tiroir en bois ouvert dans une cuisine vide aux armoires bleu pâle."
+  },
+  "catalogue-residential": {
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "description": "Une table ronde en bois devant une banquette verte et deux fenêtres."
+  },
+  "commercial": {
+    "dimensions": [
+      3840,
+      2160
+    ]
+  },
+  "commercial-feature": {
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "description": "Un employé Ketuvi essuie une table en bois dans une salle de pause."
+  },
+  "commercial-hero": {
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "description": "Des postes de travail rangés sous de grandes fenêtres, devant un mur vert sauge."
+  },
+  "condo-postconstruction": {
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "description": "Une préposée Ketuvi retire les poussières de finition d’un îlot en pierre avec une microfibre turquoise dans un condo neuf."
+  },
+  "contact-notebook-daylight": {
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "description": "Un stylo repose sur un carnet en toile fermé, au bord d’une table de travail en bois."
+  },
+  "contact-space": {
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "description": "Un carnet kraft repose sur la table ovale d’une alcôve éclairée par une verrière."
+  },
+  "detail-editorial": {
+    "dimensions": [
+      3840,
+      2160
+    ]
+  },
+  "floor-stripping-technician": {
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "description": "Un préposé Ketuvi en polo améthyste guide une monobrosse à deux mains pour décaper le plancher d’un hall vitré."
+  },
+  "hero-editorial": {
+    "dimensions": [
+      3840,
+      2160
+    ]
+  },
+  "home-commercial": {
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "description": "Une boutique de fleurs lumineuse avec un comptoir vert patiné et un sol en terrazzo."
+  },
+  "home-downtown-office": {
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "description": "Des postes de travail en bois longent de grandes fenêtres donnant sur les tours du centre-ville."
+  },
+  "home-occasional": {
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "description": "Un aspirateur et des microfibres turquoise dans l’entrée d’un appartement vide."
+  },
+  "home-report-detail": {
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "description": "Une main gantée plie une lavette turquoise sur le plateau métallique d’un chariot."
+  },
+  "modern-office-meeting": {
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "description": "Une salle de réunion moderne et lumineuse avec une table ovale en bois clair, des fauteuils graphite et de grandes baies vitrées."
+  },
+  "occasional-feature": {
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "description": "Un escalier en bois éclairé par un vitrail au-dessus du palier."
+  },
+  "occasional-hero": {
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "description": "Une technicienne passe une monobrosse sur le sol d’une salle vitrée."
+  },
+  "reception-daylight": {
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "description": "Un comptoir d’accueil en bois longe les fenêtres d’un hall de bureaux au sol de terrazzo."
+  },
+  "residential": {
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "description": "Un canapé clair et des plantes près des grandes fenêtres d’un salon."
+  },
+  "residential-after": {
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "description": "Cuisine après entretien. Photo générée à partir de la vue avant."
+  },
+  "residential-before": {
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "description": "Cuisine après le déjeuner, avant entretien. Photo générée à titre illustratif."
+  },
+  "residential-cabinet-care": {
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "description": "Une professionnelle en polo améthyste Ketuvi essuie une porte d’armoire en bois à l’aide d’une microfibre turquoise."
+  },
+  "residential-hero": {
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "description": "Lit en lin clair et jeté vert sauge dans une chambre éclairée par le soleil du matin."
+  },
+  "team": {
+    "dimensions": [
+      3840,
+      2160
+    ]
+  }
+}

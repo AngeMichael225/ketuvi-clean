@@ -1,0 +1,34 @@
+[
+  {
+    "key": "hero-editorial",
+    "prompt": "Create ONE authentic on-location editorial reportage photograph for the KetuviClean housekeeping company, shot in a sunny, attainable Montreal duplex. Wide horizontal hero, 3840×2160. The real human gesture is the subject: a composed Black woman professional around 35 with tied natural curls, on the RIGHT 68–83% of the photo, three-quarter front view as she leans to wipe a kitchen island with a folded turquoise #17C3B2 microfibre cloth under one hand. Her gaze and quiet smile are directed down at the cloth, never at the camera. Hands anatomically real, surface truly touched. Mid-thigh-up, head fully visible with generous breathing room above. The worker wears a premium fitted amethyst #B35CFF work polo with natural cotton knit, slate charcoal trousers #374345, small white embroidered KetuviClean logo on her LEFT CHEST. The supplied reference is the company's real logo, reproduce its exact geometric K and lettering as plain white embroidery, subtle and credible, following natural fabric folds. The reference controls only the small logo. Full frame 35mm f/4; candid side daylight from tall windows, strong contrast of soft directional morning sun and natural cool shade. Inviting warm wood, pale stone and real plant leaves foreground. LEFT 42% calm shaded architecture with long warm oak joinery, simple, less bright, no people or major details left; face and hands safely inside right half for mobile cropping. Natural skin pores and sleeve stitching, restrained color grade, fine photographic grain, no CGI, glossy plastic skin, artificial imagery, fake sparkles, faux bokeh, watermark, overlaid typography, collages or borders. One photo, not a layout.",
+    "model": "gpt_image_2_6",
+    "job_id": "df123859-fde0-4b4d-988f-add36bd5f920",
+    "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FbEtHIajKl7NAlfK9vatgUg0PB/hf_20261124_224352_df123859-fde0-4b4d-988f-add36bd5f920.png",
+    "path": "brand-guidelines/assets/photos/hero-editorial.png",
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "format": "png",
+    "native": true,
+    "generated": true,
+    "brand_reference": "D:/PC GSF/Ketuvi/Graphics/Logo/KetuviClean logo.png",
+    "reference_media_id": "ee6fe0d2-fc68-4e16-8852-974477f8f941"
+  },
+  {
+    "key": "detail-editorial",
+    "prompt": "A single newly photographed 4K editorial macro detail from an honest Montreal cleaning service reportage. Wide 16:9. A hand in a soft neutral nitrile glove, anatomically natural, actually pressing a folded textured Ketuvi turquoise #17C3B2 microfibre cloth against a real brushed stainless-steel countertop, an elegant curve of a steel sink visible behind, tiny water beads along lip, unmistakable wiping gesture at mid-frame. Lower edge of a natural amethyst uniform sleeve at wrist only, otherwise no people, faces, shirts, branding, bottles or text. Composed from extremely low near-counter level looking obliquely across the cloth, 85mm lens at f/4. Warm side light from window on right, natural cast shadow and realistic lens falloff, distinct woven fibres, visible soft ripples in the cloth and subdued reflected light on brushed steel. Grounded, tactile, intriguing reportage cutaway from a photographic magazine. Warmth, texture, true-to-life shadows and gentle grain. Avoid a stock advertisement look, CGI, overly polished showroom, slick artificial gradients, foam or sparkle effects, artistic illustration, staged still life, watermark or writing. Fill the whole frame with the photo, no borders.",
+    "model": "gpt_image_2_6",
+    "job_id": "4c6c0376-c624-4457-ad3a-d69e026a242e",
+    "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FbEtHIajKl7NAlfK9vatgUg0PB/hf_20261124_224351_4c6c0376-c624-4457-ad3a-d69e026a242e.png",
+    "path": "brand-guidelines/assets/photos/detail-editorial.png",
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "format": "png",
+    "native": true,
+    "generated": true
+  }
+]

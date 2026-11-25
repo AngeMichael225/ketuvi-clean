@@ -1,0 +1,41 @@
+[
+  {
+    "key": "commercial",
+    "path": "C:\\Dev\\web\\brand-guidelines\\assets\\photos\\commercial.png",
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "model": "gpt_image_2_6",
+    "job_id": "b638a8de-0f07-4073-b43a-eda926470d59",
+    "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FbEtHIajKl7NAlfK9vatgUg0PB/hf_20261124_184715_b638a8de-0f07-4073-b43a-eda926470d59.png",
+    "generated": true
+  },
+  {
+    "key": "residential",
+    "description": "Un canapé clair et des plantes près des grandes fenêtres d’un salon.",
+    "path": "C:\\Dev\\web\\brand-guidelines\\assets\\photos\\residential.png",
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "model": "gpt_image_2_6",
+    "job_id": "ef6bd33a-3bc7-441a-8ca3-8cf64ed0b165",
+    "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FbEtHIajKl7NAlfK9vatgUg0PB/hf_20261124_184715_ef6bd33a-3bc7-441a-8ca3-8cf64ed0b165.png",
+    "generated": true
+  },
+  {
+    "key": "team",
+    "path": "C:\\Dev\\web\\brand-guidelines\\assets\\photos\\team.png",
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "model": "gpt_image_2_6",
+    "job_id": "58c8e441-3a4f-4073-9dae-c372f28c0142",
+    "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FbEtHIajKl7NAlfK9vatgUg0PB/hf_20261124_194417_58c8e441-3a4f-4073-9dae-c372f28c0142.png",
+    "generated": true,
+    "parent_job_id": "239cbb92-9d0b-4f32-9e22-c63226bf19dc",
+    "revision": "Pantalon Ardoise #374345 ; polo et logo conservés"
+  }
+]

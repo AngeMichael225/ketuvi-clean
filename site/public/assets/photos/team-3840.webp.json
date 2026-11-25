@@ -1,0 +1,8 @@
+{
+  "prompt": "Edit the referenced newly generated KetuviClean employee photograph with a single precise wardrobe color change. Preserve the exact same woman, face, pose, hands, embroidered official white KetuviClean chest logo, amethyst purple polo #B35CFF, turquoise cloth #17C3B2, spray bottle, office, daylight, framing, and photoreal documentary quality. Change ONLY the trousers from forest green to brand SLATE / ARDOISE #374345: dark neutral charcoal grey with a subtle cool green undertone, not saturated green, not navy and not black. Retain all existing seams, pockets, fabric texture, natural folds, and realistic shading. Preserve the photo's other pixels as closely as the image model permits. No CGI appearance, no skin smoothing, no extra logos or text. Output a native 3840x2160 PNG at 4K. Brand hierarchy for context: Amethyst is primary, Turquoise is secondary; the trousers must be Slate #374345. Reference media is the exact edit target, not loose inspiration.",
+  "origin": "brand-guidelines/assets/photos/team.png",
+  "model": "gpt_image_2_6",
+  "job_id": "58c8e441-3a4f-4073-9dae-c372f28c0142",
+  "derivative": "Full frame, encoded at its native width of 3840px as WebP.",
+  "createdAt": "2026-11-24T19:49:31.489978+00:00"
+}

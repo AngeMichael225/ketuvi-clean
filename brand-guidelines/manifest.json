@@ -1,0 +1,107 @@
+[
+  {
+    "path": "assets/icons/icon-system.proposed.json",
+    "bytes": 3150,
+    "sha256": "f9b104537826e4d35ce26a165c99aebaf1799d960f610e3a6c986e29c28c5618"
+  },
+  {
+    "path": "assets/icons/ketuvi-careers.svg",
+    "bytes": 815,
+    "sha256": "f0adc666191e1fc64f5269695f392cf3b90b8d299cb147b818c5d60aa60ca833"
+  },
+  {
+    "path": "assets/icons/ketuvi-commercial.svg",
+    "bytes": 731,
+    "sha256": "e246556ba42b090875d7e540f51e58aeef740ae6721cce7a86bc2e0ba1c99427"
+  },
+  {
+    "path": "assets/icons/ketuvi-contact.svg",
+    "bytes": 578,
+    "sha256": "fd4326b166c896eedbd37b24eb1badff99dbbd794da7691ec25c5bdf9bbc1d98"
+  },
+  {
+    "path": "assets/icons/ketuvi-occasional.svg",
+    "bytes": 1041,
+    "sha256": "afe4d651d67f53f08b8231cdf557c7937b9061e8c8067ce012c57de28e7ee11b"
+  },
+  {
+    "path": "assets/icons/ketuvi-quotation.svg",
+    "bytes": 684,
+    "sha256": "f8ee34596f5f4cb85c6763251b3734c5d069978d198aadc14b6bcd995bcd7421"
+  },
+  {
+    "path": "assets/icons/ketuvi-residential.svg",
+    "bytes": 629,
+    "sha256": "466f77d4259b79aadbaa9870d493ca52de727341ae18143c80c9d9f3e0ff9676"
+  },
+  {
+    "path": "assets/icons/LICENSE-Phosphor.txt",
+    "bytes": 1092,
+    "sha256": "ddbe6082ec3cf979db47e5af549d2849c5d6182b3e005ef91ce1dbb9eb122f11"
+  },
+  {
+    "path": "assets/icons/NOTICE.md",
+    "bytes": 923,
+    "sha256": "99856b6299ea34880ad5751cef81aeaa0647f8ab921e39da681988c47911c8be"
+  },
+  {
+    "path": "assets/icons/README.md",
+    "bytes": 1168,
+    "sha256": "15e6ff8b047829f699d5581e807db1c6812cd3f4de898adefe928babd8b38fef"
+  },
+  {
+    "path": "assets/ketuvi-signature-reverse-proposition.svg",
+    "bytes": 229636,
+    "sha256": "82d64787e9ec2b0ff7e1a4f2e1579d3eab1b2d0a14cb3867d75139916758ea5d"
+  },
+  {
+    "path": "assets/ketuvi-signature-white-proposition.svg",
+    "bytes": 229636,
+    "sha256": "1775194e43cb86baf42b523bb82871a5afe1fa914958a24adf0511d1e7795102"
+  },
+  {
+    "path": "assets/photos/commercial.png",
+    "bytes": 11714337,
+    "sha256": "4dd226f91944a691d798a9723f6ddaa4e4501eef458f6d09a1ce42b20f7c8bf2"
+  },
+  {
+    "path": "assets/photos/prompts.json",
+    "bytes": 5690,
+    "sha256": "c4ac1699c7bc55cc3e1628c2583d1ae64ba6a73fb25a580245650d0155fb6410"
+  },
+  {
+    "path": "assets/photos/provenance.json",
+    "bytes": 1419,
+    "sha256": "f4f816e3c97fabeed2eaa5a3fa21e18128798a0c607de33cbde4f4f8b09fe0be"
+  },
+  {
+    "path": "assets/photos/residential.png",
+    "bytes": 11967998,
+    "sha256": "df23660a2b3abdfa3281965cc7ffc787e0a7f914f08f4a7b1904654bec114434"
+  },
+  {
+    "path": "assets/photos/team.png",
+    "bytes": 10830361,
+    "sha256": "ec59271d948bc95be4c5d5b8713af7107759220c7737de3ac0e73e6f2fe5361c"
+  },
+  {
+    "path": "brand-tokens.proposed.json",
+    "bytes": 7744,
+    "sha256": "51d9380e39b378e64a7137002955e9a16a1bb8d703cb096b16ee4dc31c3d0c6d"
+  },
+  {
+    "path": "Ketuvi-Brand-Guideline-v1-proposition.md",
+    "bytes": 18139,
+    "sha256": "63173e1daf25276fe27502f27d62833ffa75d74654dc6139abc988f814c24f83"
+  },
+  {
+    "path": "Ketuvi-Brand-Guideline-v1-proposition.pdf",
+    "bytes": 1613107,
+    "sha256": "e8cee90bfcad6565f6f0a29a30b12391115cd67ab5cbdd105cacb510b8673e53"
+  },
+  {
+    "path": "README.md",
+    "bytes": 2122,
+    "sha256": "4f466a7b79047d991b558f9746869a6886a961db1efc9a3bd9d945fd79f96f90"
+  }
+]

@@ -1,0 +1,130 @@
+[
+  {
+    "key": "home-commercial",
+    "prompt": "One original 16:9 native 3840×2160 documentary photograph for a professional housekeeping service in Québec. Entering a small open neighborhood florist in Montreal on a mild spring morning, photographed from the open door with a 32mm lens at standing height. In the middle ground a few galvanized florist buckets and loose, believable tulips on a low patinated counter, in front a swept speckled terrazzo floor catches the soft green reflection of the front window. Open sightlines, quiet practical shop, mildly asymmetrical, kind and bright, service at a local business. Keep primary shapes in central two thirds for card cropping. Shot in a real attainable human-size location with believable construction and fixtures, tactile true-to-life material texture, subtle photographic grain, natural color, clean but lived-in, open airy exposure with preserved highlights. No visible people, logos, signs, visual text, sparkles, filters, collages, graphic design, stock watermark, CGI, style render or impossible geometry.",
+    "model": "gpt_image_2_6",
+    "job_id": "a37dacd6-e6b9-4e5b-8181-5cdeb5c2e8f7",
+    "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FbEtHIajKl7NAlfK9vatgUg0PB/hf_20261124_230633_a37dacd6-e6b9-4e5b-8181-5cdeb5c2e8f7.png",
+    "path": "brand-guidelines/assets/photos/home-commercial.png",
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "format": "png",
+    "native": true,
+    "generated": true,
+    "description": "Une boutique de fleurs lumineuse avec un comptoir vert patiné et un sol en terrazzo."
+  },
+  {
+    "key": "home-occasional",
+    "prompt": "One original 16:9 native 3840×2160 documentary photograph for a professional housekeeping service in Québec. An intimate documentary still life of a professional cleaning kit set up in the vestibule of an unfurnished Montreal apartment before a scheduled one-off deep clean. One simple unbranded compact commercial canister vacuum in charcoal, realistic hose and a floor attachment resting naturally beside it, small open caddy with neatly folded turquoise cotton microfibres. Eye level modestly lowered toward ashwood floor; opening provides a glimpse of an EMPTY light-filled room. Sideways north light, cream painted lower millwork with ordinary wear, realistic fine detail in hoses and woven textiles. Quiet uncluttered placement, candid 45mm lens, visible subject in central region. Shot in a real attainable human-size location with believable construction and fixtures, tactile true-to-life material texture, subtle photographic grain, natural color, clean but lived-in, open airy exposure with preserved highlights. No visible people, logos, signs, visual text, sparkles, filters, collages, graphic design, stock watermark, CGI, style render or impossible geometry.",
+    "model": "gpt_image_2_6",
+    "job_id": "bec92726-a111-4d44-ac0e-e2b9e8d5693d",
+    "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FbEtHIajKl7NAlfK9vatgUg0PB/hf_20261124_230632_bec92726-a111-4d44-ac0e-e2b9e8d5693d.png",
+    "path": "brand-guidelines/assets/photos/home-occasional.png",
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "format": "png",
+    "native": true,
+    "generated": true,
+    "description": "Un aspirateur et des microfibres turquoise dans l’entrée d’un appartement vide."
+  },
+  {
+    "key": "catalogue-commercial",
+    "prompt": "One original 16:9 native 3840×2160 documentary photograph for a professional housekeeping service in Québec. A glass-walled mid-size meeting room in a Montreal office just before a meeting. Long tactile pale ash conference table at a diagonal, six everyday upholstered navy chairs, no screens on walls, a fluted glass partition, partial view of brick outside. Grazing sunshine drawn across the clear table by roller blinds. Candid architectural photograph shot at the near table corner 35mm, natural human-height framing. Carefully maintained workspace, a single closed charcoal notebook at far end. Shot in a real attainable human-size location with believable construction and fixtures, tactile true-to-life material texture, subtle photographic grain, natural color, clean but lived-in, open airy exposure with preserved highlights. No visible people, logos, signs, visual text, sparkles, filters, collages, graphic design, stock watermark, CGI, style render or impossible geometry.",
+    "model": "gpt_image_2_6",
+    "job_id": "fcdda4b9-9ed1-43b8-b165-040377cb9dbb",
+    "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FbEtHIajKl7NAlfK9vatgUg0PB/hf_20261124_230631_fcdda4b9-9ed1-43b8-b165-040377cb9dbb.png",
+    "path": "brand-guidelines/assets/photos/catalogue-commercial.png",
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "format": "png",
+    "native": true,
+    "generated": true,
+    "description": "Une table en bois clair entourée de chaises bleues dans une salle de réunion vitrée."
+  },
+  {
+    "key": "catalogue-residential",
+    "prompt": "One original 16:9 native 3840×2160 documentary photograph for a professional housekeeping service in Québec. Luminous dining nook in an older renovated Quebec duplex. A round vintage maple dining table, cushioned sage-green built-in banquette under tall sash windows, low original wood wall paneling with worn edges and two bentwood dining chairs. Soft overcast fall daylight on the lovingly maintained tabletop, a blue ceramic fruit bowl with three small pears and nothing else. Off-axis photograph over the shoulder of a doorway at 40mm, no leading branding, authentic early afternoon domestic atmosphere. Shot in a real attainable human-size location with believable construction and fixtures, tactile true-to-life material texture, subtle photographic grain, natural color, clean but lived-in, open airy exposure with preserved highlights. No visible people, logos, signs, visual text, sparkles, filters, collages, graphic design, stock watermark, CGI, style render or impossible geometry.",
+    "model": "gpt_image_2_6",
+    "job_id": "8c2b7b9a-a091-44cb-aa0f-95bb318591fc",
+    "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FbEtHIajKl7NAlfK9vatgUg0PB/hf_20261124_230632_8c2b7b9a-a091-44cb-aa0f-95bb318591fc.png",
+    "path": "brand-guidelines/assets/photos/catalogue-residential.png",
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "format": "png",
+    "native": true,
+    "generated": true,
+    "description": "Une table ronde en bois devant une banquette verte et deux fenêtres."
+  },
+  {
+    "key": "catalogue-occasional",
+    "prompt": "One original 16:9 native 3840×2160 documentary photograph for a professional housekeeping service in Québec. A just-cleaned, completely empty kitchen during the handover of a Montreal rental apartment. Carefully believable FULLY OPEN empty, shallow maple cutlery drawer with a naturally grained plywood base and simple dividers IN THE CENTRAL FOREGROUND, belonging to the cabinets behind it. Slightly overhead three-quarter shot at a low diagonal toward pale blue Shaker lower cabinets, off-white wall, butcher block counter and a small patch of light from the back window. Restrained documentary photograph, 55mm, f/5.6, the wood grain of the cleaned drawer crisp, shallow background continuing to an unoccupied apartment. No boxes blocking the drawer, no cleaning equipment or dishes. Shot in a real attainable human-size location with believable construction and fixtures, tactile true-to-life material texture, subtle photographic grain, natural color, clean but lived-in, open airy exposure with preserved highlights. No visible people, logos, signs, visual text, sparkles, filters, collages, graphic design, stock watermark, CGI, style render or impossible geometry.",
+    "model": "gpt_image_2_6",
+    "job_id": "4c586170-b03b-4840-9a32-dff6c12e9926",
+    "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FbEtHIajKl7NAlfK9vatgUg0PB/hf_20261124_230632_4c586170-b03b-4840-9a32-dff6c12e9926.png",
+    "path": "brand-guidelines/assets/photos/catalogue-occasional.png",
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "format": "png",
+    "native": true,
+    "generated": true,
+    "description": "Un tiroir en bois ouvert dans une cuisine vide aux armoires bleu pâle."
+  },
+  {
+    "key": "commercial-hero",
+    "prompt": "One original 16:9 native 3840×2160 documentary photograph for a professional housekeeping service in Québec. A wide daylight photograph of a small Montréal design agency's working studio, photographed on a quiet morning before staff arrive. Real desk clusters with black monitors switched off, office chairs, pale wood pencil cups and closed sketchbooks. Mint-teal wall at the far end and a muted ochre-walled alcove, partial black interior glazing, off-white ceiling, ordinary urban brick buildings through tall windows. Contemporary room with life and practical cable management; clean desks and floor. Camera in the aisle looking diagonally through the workstations at 28mm, strong layers, quiet editorial warmth, asymmetric framing with visual focus inside centre-right for narrow crops. Shot in a real attainable human-size location with believable construction and fixtures, tactile true-to-life material texture, subtle photographic grain, natural color, clean but lived-in, open airy exposure with preserved highlights. No visible people, logos, signs, visual text, sparkles, filters, collages, graphic design, stock watermark, CGI, style render or impossible geometry.",
+    "model": "gpt_image_2_6",
+    "job_id": "4220b3b8-5776-4472-a255-4f82c155c503",
+    "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FbEtHIajKl7NAlfK9vatgUg0PB/hf_20261124_230633_4220b3b8-5776-4472-a255-4f82c155c503.png",
+    "path": "brand-guidelines/assets/photos/commercial-hero.png",
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "format": "png",
+    "native": true,
+    "generated": true,
+    "description": "Des postes de travail rangés sous de grandes fenêtres, devant un mur vert sauge."
+  },
+  {
+    "key": "occasional-feature",
+    "prompt": "One original 16:9 native 3840×2160 documentary photograph for a professional housekeeping service in Québec. A quiet architectural photograph looking diagonally up the indoor staircase of a late nineteenth-century Montreal townhouse, warm honey oak treads, white risers, dark cherry handrail and slim turned timber spindles. Half landing and a tall leaded glass window casting dappled daylight over the meticulously dusted wood, traces of ordinary wear in the finish, a little adjoining pale sage hallway visible at left. Intimate mid-height camera, gently converging lines, tactile surfaces, 40mm lens, f/6.3, natural spring light, clean floor without mirror-shine. A small real home, not a mansion or grand lobby. Shot in a real attainable human-size location with believable construction and fixtures, tactile true-to-life material texture, subtle photographic grain, natural color, clean but lived-in, open airy exposure with preserved highlights. No visible people, logos, signs, visual text, sparkles, filters, collages, graphic design, stock watermark, CGI, style render or impossible geometry.",
+    "model": "gpt_image_2_6",
+    "job_id": "e4eb1c2b-616c-4d53-9eeb-630e301412bc",
+    "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FbEtHIajKl7NAlfK9vatgUg0PB/hf_20261124_230617_e4eb1c2b-616c-4d53-9eeb-630e301412bc.png",
+    "path": "brand-guidelines/assets/photos/occasional-feature.png",
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "format": "png",
+    "native": true,
+    "generated": true,
+    "description": "Un escalier en bois éclairé par un vitrail au-dessus du palier."
+  },
+  {
+    "key": "home-downtown-office",
+    "prompt": "An original single 16:9 editorial architectural photograph of a real, modestly upscale working office on an upper floor of a downtown Québec office tower, 3840 by 2160 landscape frame. Seen from an adjoining hallway at human eye level, several occupied-in-daily-use but unstaffed desks to centre and right with real charcoal ergonomic office chairs, two unbranded black computer monitors with dark screens, a closed notebook, a ceramic water carafe on an oak table. Tall floor-to-ceiling windows in the middle distance frame a dense downtown skyline of glass and masonry office towers, visible distinctly at equal height across the street. Cool diffuse urban morning light with believable soft shadows and natural warm wood. A quiet, clean graphite carpet in the bottom left, suitable for a short white web label later. Make the downtown office instantly legible in the middle 65 percent of the photograph even when tightly cropped top and sides. Documentary photography shot with an ordinary 35mm lens, level verticals, gently asymmetric composition, very fine optical grain, candid and authentic, realistic textures and furniture, exposure retains sky and interior detail. The city and working desks are both prominent. No people, lettering, branding, labels, embedded captions, flowershop, cleaning equipment, glowing gradients, 3D render sheen, unrealistically pristine showroom, extreme wide angle or stock watermark.",
+    "model": "gpt_image_2_6",
+    "job_id": "1d948d04-d618-4af9-a7e4-c9f07adb3584",
+    "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FbEtHIajKl7NAlfK9vatgUg0PB/hf_20261125_023637_1d948d04-d618-4af9-a7e4-c9f07adb3584.png",
+    "path": "brand-guidelines/assets/photos/home-downtown-office.png",
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "format": "png",
+    "native": true,
+    "generated": true,
+    "description": "Des postes de travail en bois longent de grandes fenêtres donnant sur les tours du centre-ville."
+  }
+]

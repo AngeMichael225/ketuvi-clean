@@ -1,0 +1,8 @@
+{
+  "prompt": "Retouch the provided reference photograph as precisely as possible to create its registered AFTER image for a European-style editorial interactive before/after cleaning slider. The reference photo is the BEFORE. Output the exact same photograph after the home cleaning service: clear away just the breakfast dishes and any food clutter, remove the small traces and coffee spills, bread crumbs, smears and rings, wipe the soapstone counter, clean away droplets and fingerprints from the stainless sink and faucet, wipe marks from backsplash. Keep the underlying material real with faint veining, subtle brushed metallic finish and unchanged natural reflection. Keep all the fixed elements, cabinetry, faucet, cutting board, herb pot and other permanent household decor in exactly the same image pixel positions. Please match the input pixel-for-pixel everywhere outside the retouched breakfast mess, including the camera angle and position, focal length, crop, countertop edges, grout line placement, window view, the lighting, identical exposure, grain and white balance. This is removal of mess, not a remodel or a restaged interior. No camera movement, changes of lighting or objects added. Leave a beautiful clean functional surface rather than unnaturally polished material. Entire canvas one photoreal professional photograph, no lines, labels, lettering, before/after text, person, logos, star effects, 3D, panels or watermarks. Output 16:9 native 4K PNG.",
+  "origin": "brand-guidelines/assets/photos/residential-after.png",
+  "model": "gpt_image_2_6",
+  "job_id": "575dab02-996d-47b5-95aa-8f3a00c211b3",
+  "derivative": "Full frame, resized to 480px wide and encoded as WebP.",
+  "createdAt": "2026-11-24T22:45:10.925737+00:00"
+}

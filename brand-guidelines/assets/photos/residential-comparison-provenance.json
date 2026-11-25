@@ -1,0 +1,31 @@
+[
+  {
+    "key": "residential-before",
+    "path": "brand-guidelines/assets/photos/residential-before.png",
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "model": "gpt_image_2_6",
+    "job_id": "5be8a5d2-64ca-4411-a2ff-c9abee9ed403",
+    "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FbEtHIajKl7NAlfK9vatgUg0PB/hf_20261124_224317_5be8a5d2-64ca-4411-a2ff-c9abee9ed403.png",
+    "generated": true,
+    "prompt": "Create ONE uncropped full-bleed 16:9 high-end documentary photograph for a residential cleaning website, the BEFORE state in a registered before/after slider. A lived-in 1920s Montreal apartment kitchen with painted cream cabinets below a warm ivory square tile backsplash, a beautiful pale grey soapstone working countertop extending from lower left to lower right, and a single brushed-stainless deep sink with a brushed-steel high arch faucet just right of center. Side window at far left, pale oak wall cabinet at far right. Wide medium framing, straight architectural camera on a fixed tripod at 1.55 m, slight downward look: counters and sink occupy most of the frame, not a wide room. Realistic daylight from the left, editorial interior magazine natural color, fine grain, f/8, very subtle lens falloff, ordinary attractive real home. Visible and convincing signs of one family breakfast: a small spill of dark coffee with a cup ring and toast crumbs toward the left and center on the pale countertop, fingerprints and water spots across surrounding stainless sink, two breakfast plates and a mug at right, damp splashes near the taps, light streaking on tile low down. Keep permanent props sparse and deliberate: one wooden cutting board propped against backsplash and small herb pot directly below window. Balanced, honest, tangible mess visible even at a small display size, no grime on walls or damage. No person, graphic, lettering, logo, panel division, text, image borders, watermark, overlays or label. No cleaning product or cloth. This is an optical photograph, no 3D render or simulated CGI.",
+    "description": "Cuisine après le déjeuner, avant entretien. Photo générée à titre illustratif."
+  },
+  {
+    "key": "residential-after",
+    "path": "brand-guidelines/assets/photos/residential-after.png",
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "model": "gpt_image_2_6",
+    "job_id": "575dab02-996d-47b5-95aa-8f3a00c211b3",
+    "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FbEtHIajKl7NAlfK9vatgUg0PB/hf_20261124_224417_575dab02-996d-47b5-95aa-8f3a00c211b3.png",
+    "generated": true,
+    "parent_job_id": "5be8a5d2-64ca-4411-a2ff-c9abee9ed403",
+    "prompt": "Retouch the provided reference photograph as precisely as possible to create its registered AFTER image for a European-style editorial interactive before/after cleaning slider. The reference photo is the BEFORE. Output the exact same photograph after the home cleaning service: clear away just the breakfast dishes and any food clutter, remove the small traces and coffee spills, bread crumbs, smears and rings, wipe the soapstone counter, clean away droplets and fingerprints from the stainless sink and faucet, wipe marks from backsplash. Keep the underlying material real with faint veining, subtle brushed metallic finish and unchanged natural reflection. Keep all the fixed elements, cabinetry, faucet, cutting board, herb pot and other permanent household decor in exactly the same image pixel positions. Please match the input pixel-for-pixel everywhere outside the retouched breakfast mess, including the camera angle and position, focal length, crop, countertop edges, grout line placement, window view, the lighting, identical exposure, grain and white balance. This is removal of mess, not a remodel or a restaged interior. No camera movement, changes of lighting or objects added. Leave a beautiful clean functional surface rather than unnaturally polished material. Entire canvas one photoreal professional photograph, no lines, labels, lettering, before/after text, person, logos, star effects, 3D, panels or watermarks. Output 16:9 native 4K PNG.",
+    "description": "Cuisine après entretien. Photo générée à partir de la vue avant."
+  }
+]
