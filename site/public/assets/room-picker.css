@@ -71,6 +71,9 @@
 .quote-rooms .room-choice-copy { font-size: 16px; }
 .quote-rooms .room-choice input { width: 17px; height: 17px; }
 .quote-selection { min-width: 0; }
+.quote-extra { min-width: 0; border-block: 1px solid var(--line); }
+.quote-extra summary { padding-block: 12px; min-height: 44px; color: var(--violet-text); font-size: 16px; font-weight: 500; cursor: pointer; }
+.quote-extra .form-grid { padding-block: 8px 20px; }
 .quote-selection-fields { display: grid; gap: 24px; }
 .quote-selection-preview {
   display: flex;

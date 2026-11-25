@@ -33,7 +33,7 @@ function validate(body) {
   if (!['quote','application'].includes(body.kind) || body.website) throw new RequestError(400, 'Vérifiez les renseignements de votre demande.');
   if (value.name.length < 2) throw new RequestError(400, 'Entrez un nom d’au moins deux caractères.', 'name');
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value.email)) throw new RequestError(400, 'Entrez une adresse courriel complète, par exemple nom@exemple.ca.', 'email');
-  if (value.message.length < 10) throw new RequestError(400, 'Ajoutez quelques précisions pour atteindre dix caractères.', 'message');
+  if (body.kind === 'application' && value.message.length < 10) throw new RequestError(400, 'Ajoutez quelques précisions pour atteindre dix caractères.', 'message');
   if (body.consent !== true) throw new RequestError(400, 'Acceptez le traitement des renseignements pour envoyer votre demande.', 'consent');
   const knownService = ['commercial','residential','occasional','general'].includes(value.service);
   if (!knownService && (body.kind === 'quote' || value.service)) throw new RequestError(400, 'Choisissez un service dans la liste.', 'service');

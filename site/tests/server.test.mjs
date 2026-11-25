@@ -91,6 +91,15 @@ test('rejects an invalid email without saving a request', async t => {
   assert.equal(response.status, 400);
   assert.equal((await response.json()).field, 'email');
 });
+test('allows quotes without written details while applications must describe experience', async t => {
+  const { url } = await fixture(t);
+  for (const message of ['', 'Sols']) {
+    assert.equal((await post(url, { ...valid, message })).status, 201);
+    const response = await post(url, { ...valid, kind: 'application', service: '', message });
+    assert.equal(response.status, 400);
+    assert.equal((await response.json()).field, 'message');
+  }
+});
 test('requires a service for quotes and accepts applications without a service', async t => {
   const { url, dataDir } = await fixture(t);
   const quote = await post(url, { ...valid, service: '' });

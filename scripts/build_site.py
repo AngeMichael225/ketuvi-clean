@@ -83,6 +83,7 @@ SERVICES=[
         'situation':'Je veux faire entretenir mon logement.',
         'guide':'Faire nettoyer ma cuisine ou plusieurs pièces, une seule fois ou régulièrement.',
         'home_photo':'residential', 'description':'Cuisine, salle de bain et pièces de vie, selon vos priorités.',
+        'home_example':'Cuisine, salle de bain et pièces de vie.',
         'headline':'Retrouver le plaisir d’être chez soi.',
         'scope_title':'Quelles pièces souhaitez-vous faire entretenir ?'
     },
@@ -91,6 +92,7 @@ SERVICES=[
         'situation':'Je déménage ou je remets un lieu en état.',
         'guide':'Faire nettoyer le logement que je quitte avant la remise des clés ou remettre en état un plancher marqué.',
         'home_photo':'condo-postconstruction', 'description':'Après des travaux, avant une remise de clés ou pour un plancher à reprendre.',
+        'home_example':'Après-construction, déménagement et décapage.',
         'headline':'Le bon soin, au bon moment.', 'hero_photo':'floor-stripping-technician'
     }
 ]
@@ -205,7 +207,11 @@ def home_service_cards():
     items=[]
     for service in SERVICES:
         key = service['home_photo']
-        items.append(f'''<article class="service-cover"><a href="/{service['path']}/" aria-labelledby="card-{service['key']}"><div class="service-cover-media">{photo(key,sizes='(max-width: 700px) 100vw, 34vw')}</div><div class="service-cover-label"><div>{icon(service['key'])}<h3 id="card-{service['key']}">{service['title']}</h3></div><span class="service-cover-arrow">{arrow('cover-arrow')}</span></div></a><p>{service['description']}</p></article>''')
+        items.append(f'''<article class="service-cover"><a href="/{service['path']}/" aria-labelledby="card-{service['key']}" aria-describedby="card-detail-{service['key']}">
+            <div class="service-cover-media">{photo(key,sizes='(max-width: 700px) 88px, 34vw')}</div>
+            <div class="service-cover-label"><div>{icon(service['key'])}<h3 id="card-{service['key']}">{service['title']}</h3></div><span class="service-cover-arrow">{arrow('cover-arrow')}</span></div>
+            <p id="card-detail-{service['key']}" class="service-cover-description">{service.get('home_example',service['description'])}</p>
+        </a></article>''')
     return '<div class="service-covers">'+''.join(items)+'</div>'
 
 def service_guide():
@@ -214,15 +220,15 @@ def service_guide():
                        ('Espaces communs avant l’ouverture','espace=espaces-communs&creneau=avant-ouverture')],
         'residential': [('Cuisine et salle de bain','piece=cuisine&piece=salle-de-bain'),
                         ('Pièces de vie seulement','piece=pieces-de-vie')],
-        'occasional': [('Nettoyage avant la remise des clés','motif=demenagement'),
-                       ('Nettoyage d’un condo après construction','motif=apres-construction')]
+        'occasional': [('Condo après construction','motif=apres-construction'),
+                       ('Nettoyage avant la remise des clés','motif=demenagement')]
     }
     rows=[]
     for service in SERVICES:
         key=service['key']
         image=photo('catalogue-'+key,alt='',sizes='(max-width: 700px) 23vw, 200px')
-        shortcuts=''.join(
-            f'<a href="/contact/?service={key}&amp;{esc(params)}#demande">{esc(label)}{arrow("inline-arrow")}</a>'
+        primary, alternate = (
+            f'<a class="guide-shortcut" aria-describedby="prefill-{key}" href="/contact/?service={key}&amp;{esc(params)}#demande">{esc(label)}{arrow("inline-arrow")}</a>'
             for label,params in examples[key])
         rows.append(f'''<li><a class="guide-choice" href="/{service['path']}/"
             aria-labelledby="situation-{key} destination-{key}" aria-describedby="example-{key}">
@@ -230,10 +236,14 @@ def service_guide():
             <div class="guide-copy"><h2 id="situation-{key}">{esc(service['situation'])}</h2>
                 <p id="example-{key}">{esc(service['guide'])}</p></div>
             <span class="guide-destination" id="destination-{key}">{esc(service['title'])}{arrow('guide-arrow')}</span>
-        </a><details class="guide-examples" name="guide-examples">
-            <summary aria-label="Partir d’un exemple — {esc(service['title'])}">Partir d’un exemple<span class="plus" aria-hidden="true"></span></summary>
-            <div class="guide-shortcuts"><p>Choisissez un exemple pour ouvrir votre soumission préremplie.</p>{shortcuts}</div>
-        </details></li>''')
+        </a><div class="guide-prefill">
+            <p id="prefill-{key}">Préremplit votre demande</p>
+            {primary}
+            <details class="guide-examples" name="guide-examples">
+                <summary aria-label="Autre exemple — {esc(service['title'])}">Autre exemple<span class="plus" aria-hidden="true"></span></summary>
+                <div class="guide-alternate">{alternate}</div>
+            </details>
+        </div></li>''')
     return f'''<section class="container service-guide" aria-labelledby="guide-title">
         <div class="guide-header"><h1 id="guide-title">Quel entretien<br>vous faut-il&nbsp;?</h1>
             <div><p>Pour l’entretien courant, choisissez selon le lieu. Pour un déménagement ou une remise en état, explorez les travaux ponctuels.</p>
@@ -268,9 +278,9 @@ def residential_work_photo():
 
 def home_hero():
     scenes=[
-        ('hero-editorial','Une professionnelle Ketuvi à l’œuvre dans un intérieur lumineux.','À la maison','/entretien-menager-residentiel/','Entretien résidentiel'),
-        ('modern-office-meeting',None,'Au bureau','/entretien-menager-commercial/','Entretien commercial'),
-        ('detail-editorial','Un geste d’entretien en gros plan.','Le geste de près','#le-travail-de-pres','Découvrir les gestes d’entretien'),
+        ('hero-editorial','Une professionnelle Ketuvi à l’œuvre dans un intérieur lumineux.','À la maison','/entretien-menager-residentiel/','Voir l’entretien résidentiel'),
+        ('modern-office-meeting',None,'Au bureau','/entretien-menager-commercial/','Voir l’entretien commercial'),
+        ('detail-editorial','Un geste d’entretien en gros plan.','Le geste de près','#le-travail-de-pres','Voir le travail de près'),
     ]
     frames=[]
     for i,(key,alt,caption,url,destination) in enumerate(scenes):
@@ -278,18 +288,20 @@ def home_hero():
         # The first shot renders in plain HTML. Other images load on selection.
         content=visual if i==0 else '<template>'+visual.replace('loading="lazy"','loading="eager"')+'</template>'
         frames.append(f'<div class="cover-shot" data-caption="{esc(caption)}" data-url="{esc(url)}" data-destination="{esc(destination)}" data-current="{str(i==0).lower()}" aria-hidden="{str(i!=0).lower()}">{content}</div>')
-    _,_,caption,url,destination=scenes[0]
+    _,_,_,url,destination=scenes[0]
     return f'''<section class="cover-story" aria-labelledby="cover-heading"><div class="cover-window">
         <div class="cover-gallery" aria-label="Photographies des services Ketuvi">{''.join(frames)}</div>
         <div class="cover-scrim" aria-hidden="true"></div>
         <div class="cover-copy"><p class="cover-context">Entretien ménager résidentiel et commercial</p><h1 id="cover-heading"><span>Le propre,</span><span>ça se voit.</span></h1>
         <div class="cover-actions">{button("Demander une soumission",quote_link())}<a class="cover-guide-link" href="/services/">Quel service choisir ?{arrow('inline-arrow')}</a></div></div>
-        <div class="cover-controls" role="group" aria-label="Parcourir les photographies">
-            <a class="cover-readout" href="{esc(url)}" aria-label="{esc(caption)} — {esc(destination)}"><span data-count hidden aria-hidden="true"></span><span class="scene-title"><span data-caption-label>{esc(caption)}</span>{arrow('scene-arrow')}</span></a>
+        <div class="cover-footer">
+        <a class="cover-scene-link" href="{esc(url)}"><span data-scene-link-label>{esc(destination)}</span>{arrow('scene-arrow')}</a>
+        <div class="cover-controls" role="group" aria-label="Parcourir les photographies" hidden>
+            <span data-count aria-hidden="true">01 / {len(scenes):02d}</span>
             <button hidden type="button" data-direction="-1" aria-label="Photo précédente">{arrow('gallery-arrow')}</button><button hidden type="button" data-direction="1" aria-label="Photo suivante">{arrow('gallery-arrow')}</button>
             <span class="gallery-announcement" role="status" aria-atomic="true"></span>
         </div>
-        </div></section>'''
+        </div></div></section>'''
 
 def photo_story():
     return f'''<section class="container craft-story" id="le-travail-de-pres" aria-labelledby="craft-title">
@@ -471,8 +483,9 @@ def form(kind='quote'):
         submit_label=f'Enregistrer ma {noun}'
         heading=f'{noun.capitalize()} enregistrée.'
         note=f'Pour transmettre votre message à Ketuvi, ouvrez le courriel préparé et envoyez-le à {EMAIL}.'
-    contact_fields=field('name','Nom complet',required=True,autocomplete='name')+field('email','Adresse courriel','email',True,'email')+field('phone','Téléphone','tel',False,'tel')+field('location','Ville',autocomplete='address-level2')
-    if application:fields=contact_fields+field('availability','Disponibilités',wide=True)
+    identity_fields=field('name','Nom complet',required=True,autocomplete='name')+field('email','Adresse courriel','email',True,'email')
+    optional_contact=field('phone','Téléphone','tel',False,'tel')+field('location','Ville',autocomplete='address-level2')
+    if application:fields=identity_fields+optional_contact+field('availability','Disponibilités',wide=True)
     else:
         services=''.join(f'<option value="{s["key"]}">{s["title"]}</option>' for s in SERVICES)
         fields=f'''<div class="quote-selection field-wide">
@@ -486,9 +499,13 @@ def form(kind='quote'):
                 {quote_service_fields()}
                 <button type="button" class="selection-action" data-apply-selection hidden>Appliquer mes choix</button>
             </div></div>'''
-        fields+=contact_fields
-    optional_note='' if application else ' <span data-note-optional hidden>(facultatif)</span>'
-    fields+=f'<div class="field field-wide"><label for="message">{"Votre expérience et ce que vous recherchez" if application else "Votre espace et vos besoins"}{optional_note}</label><textarea id="message" name="message" rows="5" minlength="10" maxlength="4000" required aria-describedby="message-help"></textarea><span class="field-help" id="message-help">{"Présentez votre parcours et votre intérêt pour l’entretien professionnel." if application else "Précisez les surfaces, la fréquence ou le moment souhaité."}</span></div>'
+        fields+=identity_fields
+    message_label='Votre expérience et ce que vous recherchez' if application else 'Qu’aimeriez-vous faire nettoyer ? <span>(facultatif)</span>'
+    message_rules='minlength="10" maxlength="4000" required' if application else 'maxlength="4000"'
+    fields+=f'<div class="field field-wide"><label for="message">{message_label}</label><textarea id="message" name="message" rows="5" {message_rules} aria-describedby="message-help"></textarea><span class="field-help" id="message-help">{"Présentez votre parcours et votre intérêt pour l’entretien professionnel." if application else "Précisez les surfaces, la fréquence ou le moment souhaité."}</span></div>'
+    if not application:
+        fields+=f'''<details class="quote-extra field-wide"><summary>Ajouter des précisions</summary>
+            <div class="form-grid">{optional_contact}</div></details>'''
     subject='Candidature%20spontan%C3%A9e' if application else 'Demande%20de%20soumission'
     consent_text=(
         'J’accepte que Ketuvi utilise mes renseignements pour examiner ma candidature et communiquer avec moi à son sujet.'

@@ -168,7 +168,9 @@ document.querySelectorAll('[data-request-form]').forEach(async form => {
         }
       }
     }
-    const optionalNote = form.querySelector('[data-note-optional]');
+    const optionalContact = form.querySelector('.quote-extra');
+    optionalContact.addEventListener('invalid', () => { optionalContact.open = true; }, true);
+    form.addEventListener('reset', () => { optionalContact.open = false; });
     const preview = form.querySelector('[data-selection-preview]');
     const editor = form.querySelector('#quote-selection-fields');
     const editSelection = preview.querySelector('[data-edit-selection]');
@@ -217,10 +219,6 @@ document.querySelectorAll('[data-request-form]').forEach(async form => {
         const control = group.tagName === 'FIELDSET' ? group : group.querySelector('input, select');
         control.disabled = !isRelevant;
       }
-      const hasDetail = detailGroups.some(group => selectedDetails(group).some(input => input.value !== 'a-discuter'));
-      note.required = !hasDetail;
-      note.minLength = hasDetail ? 0 : 10;
-      optionalNote.hidden = !hasDetail;
       note.setCustomValidity('');
     }
     form.addEventListener('change', event => {

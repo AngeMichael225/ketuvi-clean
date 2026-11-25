@@ -3,9 +3,9 @@ const gallery = document.querySelector('.cover-window');
 if (gallery) {
   const frames = [...gallery.querySelectorAll('.cover-shot')];
   const controls = gallery.querySelector('.cover-controls');
-  const caption = gallery.querySelector('[data-caption-label]');
+  const linkLabel = gallery.querySelector('[data-scene-link-label]');
   const counter = gallery.querySelector('[data-count]');
-  const sceneLink = gallery.querySelector('.cover-readout');
+  const sceneLink = gallery.querySelector('.cover-scene-link');
   const announcement = controls.querySelector('[role=status]');
   const pad = number => String(number).padStart(2, '0');
   const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
@@ -61,9 +61,8 @@ if (gallery) {
     }
     current = next;
     counter.textContent = pad(current + 1) + ' / ' + pad(frames.length);
-    caption.textContent = target.dataset.caption;
+    linkLabel.textContent = target.dataset.destination;
     sceneLink.setAttribute('href', target.dataset.url);
-    sceneLink.setAttribute('aria-label', target.dataset.caption + ' — ' + target.dataset.destination);
     announcement.textContent = 'Photo ' + (current + 1) + ' sur ' + frames.length + '. ' + target.dataset.caption + '.';
   }
 
@@ -97,6 +96,5 @@ if (gallery) {
       move(dx < 0 ? 1 : -1);
     }
   }, { passive: true });
-  counter.textContent = '01 / ' + pad(frames.length);
-  counter.hidden = false;
+  controls.hidden = false;
 }

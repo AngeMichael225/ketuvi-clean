@@ -50,28 +50,30 @@
 }
 .guide-choice:is(:hover, :focus-visible) .guide-destination { text-decoration: underline; text-underline-offset: 4px; }
 .guide-choice:is(:hover, :focus-visible) .guide-arrow { background: var(--amethyst); }
-.guide-examples { margin-inline-start: calc(var(--guide-photo-width) + var(--guide-gap)); }
+.guide-prefill {
+  margin: 12px 0 4px calc(var(--guide-photo-width) + var(--guide-gap));
+  display: grid; grid-template-columns: max-content minmax(0, 1fr);
+  align-items: start; gap: 2px 20px;
+}
+.guide-prefill > p { grid-column: 1 / -1; font-size: 14px; color: var(--slate); }
+.guide-shortcut {
+  display: inline-flex; align-items: center; gap: 8px; min-height: 44px;
+  padding: 6px 12px; border-radius: 8px; background: var(--teal-soft);
+  color: var(--teal-text); font-size: 15px; font-weight: 500; text-underline-offset: 3px;
+}
+.guide-shortcut:is(:hover,:focus-visible) { text-decoration: underline; }
+.guide-shortcut .inline-arrow { width: 16px; height: 16px; }
 .guide-examples summary {
   display: inline-flex; align-items: center; min-height: 44px; gap: 9px;
-  color: var(--teal-text); font-size: 15px; font-weight: 500; list-style: none; cursor: pointer;
+  color: var(--slate); font-size: 15px; list-style: none; cursor: pointer;
 }
+.guide-examples summary:is(:hover,:focus-visible) { text-decoration: underline; text-underline-offset: 3px; }
 .guide-examples summary::-webkit-details-marker { display: none; }
 .guide-examples .plus { width: 12px; height: 12px; }
 .guide-examples .plus::before, .guide-examples .plus::after { top: 5px; width: 11px; background: currentColor; }
 .guide-examples[open] .plus::after { transform: none; }
-.guide-shortcuts {
-  display: flex; flex-wrap: wrap; gap: 4px 24px; padding: 6px 0 10px 14px;
-  border-inline-start: 2px solid var(--turquoise);
-}
-.guide-shortcuts p { width: 100%; font-size: 15px; }
-.guide-shortcuts a {
-  display: inline-flex; align-items: center; gap: 6px; min-height: 44px;
-  color: var(--violet-text); font-size: 16px; font-weight: 500; text-underline-offset: 4px;
-}
-.guide-shortcuts a:is(:hover,:focus-visible) { text-decoration: underline; }
-.guide-shortcuts .inline-arrow { width: 16px; height: 16px; }
 @media (prefers-reduced-motion: no-preference) {
-  .guide-examples[open] .guide-shortcuts { animation: panel-arrive 160ms var(--editorial-ease); }
+  .guide-examples[open] .guide-alternate { animation: panel-arrive 160ms var(--editorial-ease); }
 }
 @media (max-width: 960px) {
   .service-guide { --guide-photo-width: clamp(92px, 18vw, 155px); --guide-gap: 24px; }
@@ -88,9 +90,6 @@
   .guide-choice img { aspect-ratio: .86; align-self: start; }
   .guide-copy h2 { font-size: clamp(21px, 4.6vw, 26px); }
   .guide-copy p { font-size: 15px; }
-  .guide-shortcuts { flex-direction: column; }
-}
-@media (max-width: 410px) {
-  .guide-examples[open] { margin-inline-start: 0; }
-  .guide-examples[open] summary { margin-inline-start: calc(var(--guide-photo-width) + var(--guide-gap)); }
+  .guide-prefill { display: flex; flex-wrap: wrap; gap: 2px 14px; margin: 12px 0 4px; }
+  .guide-prefill > p { flex-basis: 100%; }
 }
