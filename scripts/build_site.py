@@ -538,6 +538,12 @@ careers=(
     </section>'''
 )
 pages['carrieres']=layout('Carrières','Présentez votre candidature spontanée à KetuviClean.',careers,'carrieres')
+if STATIC_EMAIL:
+    transmission=f'''<p>Votre navigateur prépare un brouillon. Votre nom, vos coordonnées et votre message restent dans le formulaire jusqu’à l’ouverture de votre messagerie. Vérifiez le contenu du courriel et envoyez-le à {EMAIL}. Si vous arrivez depuis une fiche de service, les choix qui servent à préremplir la demande figurent dans l’adresse de la page.</p>'''
+else:
+    transmission=f'''<p>Le formulaire indique son mode de transmission avant votre validation.</p>
+    <p><strong>Dans l’aperçu local,</strong> la demande est enregistrée sur l’ordinateur qui héberge l’aperçu. Pour la faire parvenir à Ketuvi, ouvrez le courriel préparé et envoyez-le avec votre messagerie.</p>
+    <p><strong>Lorsque l’envoi direct est activé,</strong> le serveur transmet votre message à {EMAIL} par l’intermédiaire de Resend. Ce fournisseur conserve le contenu du courriel et les journaux de livraison aux États-Unis. Le serveur du site garde aussi une fiche privée de la demande et une référence de transmission.</p>'''
 privacy=f'''<section class="container simple-hero">
     <h1>Politique de<br>confidentialité.</h1>
     <p>Comment Ketuvi utilise vos renseignements quand vous demandez une soumission ou présentez votre candidature.</p>
@@ -549,10 +555,7 @@ privacy=f'''<section class="container simple-hero">
     <p><strong>Pour une soumission,</strong> Ketuvi utilise le service choisi et votre description des lieux pour étudier vos besoins et vous répondre. Selon le service, vous pouvez préciser les pièces à entretenir, le moment souhaité ou la date de remise des clés.</p>
     <p><strong>Pour une candidature,</strong> Ketuvi utilise votre présentation et vos coordonnées pour examiner votre candidature et vous contacter à son sujet. Vous pouvez aussi indiquer vos disponibilités.</p>
     <h2>Comment votre message nous parvient.</h2>
-    <p>Le formulaire indique son mode de transmission avant votre validation.</p>
-    <p><strong>Sur le site public, lorsque vous envoyez le courriel vous-même,</strong> votre navigateur prépare un brouillon à partir de vos réponses. Le site ne reçoit ni n’enregistre ces réponses sur son serveur. Ouvrez le brouillon dans votre messagerie, vérifiez son contenu et envoyez-le à {EMAIL}. Si vous préférez écrire directement à cette adresse, votre message passe également par votre messagerie.</p>
-    <p><strong>Dans l’aperçu local,</strong> la demande est enregistrée sur l’ordinateur qui héberge l’aperçu. Pour la faire parvenir à Ketuvi, ouvrez le courriel préparé et envoyez-le avec votre messagerie.</p>
-    <p><strong>Lorsque l’envoi direct est activé,</strong> le serveur transmet votre message à {EMAIL} par l’intermédiaire de Resend. Ce fournisseur conserve le contenu du courriel et les journaux de livraison aux États-Unis. Le serveur du site garde aussi une fiche privée de la demande et une référence de transmission.</p>
+    {transmission}
     <h2>Combien de temps les renseignements sont-ils conservés ?</h2>
     <p>Une fois le traitement de votre demande terminé, la loi prévoit la destruction des renseignements ou leur anonymisation en vue d’une utilisation légitime, sous réserve des délais de conservation prévus par la loi. Pour connaître la durée applicable à votre demande et savoir qui peut consulter votre dossier chez Ketuvi, écrivez à l’adresse ci-dessous.</p>
     <h2>Vos droits et vos recours.</h2>
@@ -561,7 +564,7 @@ privacy=f'''<section class="container simple-hero">
     <p>Pour transmettre une demande ou une plainte à la personne responsable chez Ketuvi, écrivez à notre adresse générale <a href="mailto:{EMAIL}?subject=Confidentialit%C3%A9">{EMAIL}</a> avec l’objet « Confidentialité ». Décrivez votre demande et indiquez sa référence si vous l’avez. Une vérification de votre identité peut être nécessaire avant de vous communiquer des renseignements.</p>
     <p>La Commission d’accès à l’information du Québec explique <a href="https://www.cai.gouv.qc.ca/protection-renseignements-personnels/citoyens-protection-renseignements-personnels/acces-et-protection-renseignements-personnels">comment exercer vos droits et quels recours s’offrent à vous</a>.</p>
     <h2>Navigation sur le site.</h2>
-    <p>Le site héberge ses images et ses polices. Il n’installe aucun témoin publicitaire ou de mesure d’audience.</p>
+    <p>Le site héberge ses images. Il n’installe aucun témoin publicitaire ou de mesure d’audience.</p>
 </section>'''
 pages['confidentialite']=layout('Confidentialité','Découvrez comment Ketuvi traite les soumissions et les candidatures et comment exercer vos droits sur vos renseignements personnels.',privacy,'confidentialite')
 for route,source in pages.items():
